@@ -1,0 +1,6 @@
+projectKey=realbestia:itatv
+serverUrl=http://localhost:9000
+serverVersion=25.2.0.102705
+dashboardUrl=http://localhost:9000/dashboard?id=realbestia%3Aitatv
+ceTaskId=f5228601-8517-4cb8-8627-5797a2880483
+ceTaskUrl=http://localhost:9000/api/ce/task?id=f5228601-8517-4cb8-8627-5797a2880483

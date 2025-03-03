@@ -1,2 +1,4 @@
 /src/out/**
-.env
+!/src/out/repos/
+!/src/out/repos/EMPTY.txt
+/src/.env
