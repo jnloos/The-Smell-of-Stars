@@ -30,14 +30,14 @@ class Sonar:
         )
 
         command = (
-            f"sonar-scanner "
-            f"-Dsonar.projectKey={repo.key()} "
-            f"-Dsonar.projectName={repo.name} "
-            f"-Dsonar.sources={repo.path()} "
-            f"-Dsonar.projectBaseDir={repo.path()} "
-            f"-Dsonar.host.url={self.sonar_url} "
-            f"-Dsonar.login={self.sonar_token} "
-            f"-Dsonar.exclusions={exclusions}"
+            f'sonar-scanner '
+            f'-Dsonar.projectKey="{repo.key()}" '
+            f'-Dsonar.projectName="{repo.name}" '
+            f'-Dsonar.sources="{repo.path()}" '
+            f'-Dsonar.projectBaseDir="{repo.path()}" '
+            f'-Dsonar.host.url="{self.sonar_url}" '
+            f'-Dsonar.login="{self.sonar_token}" '
+            f'-Dsonar.exclusions="{exclusions}"'
         )
 
         Logger.debug(f"Running sonar-scanner for project {repo.key()} with exclusions: {exclusions}")

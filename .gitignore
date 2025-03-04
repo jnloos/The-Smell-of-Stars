@@ -4,3 +4,5 @@
 !/src/out/results/
 !/src/out/results/EMPTY.txt
 /src/.env
+!/.venv/
+!/.venv/**

@@ -8,6 +8,7 @@ from lib.Crawler import Crawler
 from lib.Logger import Logger
 from lib.Sonar import Sonar
 
+
 def worker(repo_queue, scan_results, results_lock, failed_repos):
     sonar = Sonar()
     while True:
@@ -24,6 +25,7 @@ def worker(repo_queue, scan_results, results_lock, failed_repos):
         else:
             Logger.error(f"Failed to evaluate repository {repo.key()}")
             failed_repos.append(repo.key())
+
 
 def main():
     # Load .env file
@@ -86,6 +88,7 @@ def main():
     # Exit dialog and summary
     Logger.br().message(f"The Repository Crawler is done.", color='blue')
     Logger.message(f"All results have been saved to {abs_path}.")
+
 
 if __name__ == "__main__":
     main()
