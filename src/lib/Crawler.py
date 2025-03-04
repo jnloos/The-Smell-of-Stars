@@ -1,23 +1,23 @@
-import math
-from typing import Self
 import os
-import random
+from typing import Self
+
 import requests
 
-from lib.Repository import Repository
 from lib.Logger import Logger
+from lib.Repository import Repository
+
 
 class Crawler:
     # GitHub API credentials
-    token: str = None
+    token = None
 
     # GitHub API routes
     repos_url = 'https://api.github.com/search/repositories'
 
     # Optional filters
-    __min_stars: int = None
-    __max_stars: int = None
-    __lang: str = None
+    __min_stars = None
+    __max_stars = None
+    __lang = None
 
     def __init__(self):
         self.token = os.getenv('GITHUB_TOKEN')
@@ -37,13 +37,16 @@ class Crawler:
     def lang(self, lang: str) -> Self:
         self.__lang = lang
         return self
-    
+
     def __compose_filters(self) -> str:
         query_parts = []
-        if self.__min_stars is not None:
-            query_parts.append(f"stars:>={self.__min_stars}")
-        if self.__max_stars is not None:
-            query_parts.append(f"stars:<={self.__max_stars}")
+        if self.__min_stars is not None and self.__max_stars is not None:
+            query_parts.append(f"stars:{self.__min_stars}..{self.__max_stars}")
+        else:
+            if self.__min_stars is not None:
+                query_parts.append(f"stars:>={self.__min_stars}")
+            if self.__max_stars is not None:
+                query_parts.append(f"stars:<={self.__max_stars}")
         if self.__lang is not None:
             query_parts.append(f"language:{self.__lang}")
         if not query_parts:
@@ -72,7 +75,7 @@ class Crawler:
             return []
         return response.json().get("items", [])
 
-    def crawl(self, num: int) -> dict:
+    def crawl(self, num: int) -> tuple[dict, int]:
         repos = {}
 
         page = 1
@@ -99,5 +102,5 @@ class Crawler:
 
             page += 1
 
-        Logger.info(f"{len(repos)} repositories were successfully crawled.")
-        return repos
+        Logger.info(f"{len(repos)} suitable repositories found.")
+        return repos, len(repos)

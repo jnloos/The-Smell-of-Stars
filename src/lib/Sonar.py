@@ -23,6 +23,12 @@ class Sonar:
             Logger.error("Repository path not found. Please download the repository first.")
             return
 
+        # Add exclusions for file extensions that require compilation.
+        exclusions = (
+            "**/*.java,**/*.cs,**/*.cpp,**/*.cc,**/*.cxx,**/*.c,**/*.scala,"
+            "**/*.kt,**/*.kts,**/*.swift,**/*.m,**/*.mm,**/*.rs,**/*.vb,**/*.vbs"
+        )
+
         command = (
             f"sonar-scanner "
             f"-Dsonar.projectKey={repo.key()} "
@@ -30,10 +36,11 @@ class Sonar:
             f"-Dsonar.sources={repo.path()} "
             f"-Dsonar.projectBaseDir={repo.path()} "
             f"-Dsonar.host.url={self.sonar_url} "
-            f"-Dsonar.login={self.sonar_token}"
+            f"-Dsonar.login={self.sonar_token} "
+            f"-Dsonar.exclusions={exclusions}"
         )
 
-        Logger.debug(f"Running sonar-scanner for project {repo.key()}")
+        Logger.debug(f"Running sonar-scanner for project {repo.key()} with exclusions: {exclusions}")
         try:
             subprocess.run(
                 command,
@@ -46,10 +53,10 @@ class Sonar:
         except subprocess.CalledProcessError as e:
             Logger.error(f"Error running sonar-scanner: {e}")
 
-    def __sonar_qube_eval(self, repo: Repository) -> dict:
+    def __sonar_qube_info(self, repo: Repository) -> dict:
         Logger.debug(f"Fetching evaluated metrics for project {repo.key()}...")
 
-        max_wait = 60
+        max_wait = 120
         interval = 5
         waited = 0
         url = f"{self.sonar_url}/api/measures/component"
@@ -94,10 +101,26 @@ class Sonar:
         self.__sonar_qube_scan(repo)
 
         # Evaluate repository
-        results = self.__sonar_qube_eval(repo)
+        result = self.__sonar_qube_info(repo)
+        if len(result) == 0:
+            return result
+
+        # Include normalized metrics (per NCLOC) and stars
+        summary = {'stars': repo.stars}
+        summary.update(result)
+        ncloc = float(summary.get('ncloc', 0))
+        if ncloc > 0:
+            code_smells = float(summary.get('code_smells', 0))
+            cognitive_complexity = float(summary.get('cognitive_complexity', 0))
+            summary['norm_code_smells'] = str(code_smells / ncloc)
+            summary['norm_cognitive_complexity'] = str(cognitive_complexity / ncloc)
+        else:
+            summary['norm_code_smells'] = '0'
+            summary['norm_cognitive_complexity'] = '0'
 
         # Clean files and project
         repo.clean()
         self.__sonar_qube_clean(repo)
 
-        return results
+        return summary
+
