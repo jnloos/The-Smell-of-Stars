@@ -1,0 +1,882 @@
+{
+    "danielmiessler:SecLists": {
+        "stars": 61167,
+        "code_smells": "281",
+        "cognitive_complexity": "1007",
+        "ncloc": "5779",
+        "norm_code_smells": "0.04862432946876622",
+        "norm_cognitive_complexity": "0.17425160062294515"
+    },
+    "woocommerce:woocommerce": {
+        "stars": 9604,
+        "code_smells": "26833",
+        "cognitive_complexity": "67037",
+        "ncloc": "904178",
+        "norm_code_smells": "0.029676678707068742",
+        "norm_cognitive_complexity": "0.0741413748177903"
+    },
+    "elementor:elementor": {
+        "stars": 6648,
+        "code_smells": "9214",
+        "cognitive_complexity": "19387",
+        "ncloc": "250466",
+        "norm_code_smells": "0.03678742823377225",
+        "norm_cognitive_complexity": "0.07740371946691367"
+    },
+    "opencart:opencart": {
+        "stars": 7678,
+        "code_smells": "29204",
+        "cognitive_complexity": "122692",
+        "ncloc": "796734",
+        "norm_code_smells": "0.03665464257832601",
+        "norm_cognitive_complexity": "0.15399367919531487"
+    },
+    "roots:sage": {
+        "stars": 12870,
+        "code_smells": "7",
+        "cognitive_complexity": "24",
+        "ncloc": "298",
+        "norm_code_smells": "0.02348993288590604",
+        "norm_cognitive_complexity": "0.08053691275167785"
+    },
+    "drupal:drupal": {
+        "stars": 4136,
+        "code_smells": "31190",
+        "cognitive_complexity": "63675",
+        "ncloc": "998114",
+        "norm_code_smells": "0.03124893549233855",
+        "norm_cognitive_complexity": "0.06379531796969083"
+    },
+    "coollabsio:coolify": {
+        "stars": 37936,
+        "code_smells": "1842",
+        "cognitive_complexity": "11649",
+        "ncloc": "66697",
+        "norm_code_smells": "0.027617434067499287",
+        "norm_cognitive_complexity": "0.17465553173306145"
+    },
+    "glpi-project:glpi": {
+        "stars": 4565,
+        "code_smells": "12355",
+        "cognitive_complexity": "71925",
+        "ncloc": "590598",
+        "norm_code_smells": "0.020919474837368227",
+        "norm_cognitive_complexity": "0.1217833450164071"
+    },
+    "YOURLS:YOURLS": {
+        "stars": 11037,
+        "code_smells": "1282",
+        "cognitive_complexity": "1921",
+        "ncloc": "12505",
+        "norm_code_smells": "0.10251899240303879",
+        "norm_cognitive_complexity": "0.15361855257896842"
+    },
+    "aonez:Keka": {
+        "stars": 5198,
+        "code_smells": "24",
+        "cognitive_complexity": "0",
+        "ncloc": "1747",
+        "norm_code_smells": "0.013737836290784202",
+        "norm_cognitive_complexity": "0.0"
+    },
+    "wallabag:wallabag": {
+        "stars": 10987,
+        "code_smells": "673",
+        "cognitive_complexity": "1582",
+        "ncloc": "38942",
+        "norm_code_smells": "0.0172821118586616",
+        "norm_cognitive_complexity": "0.04062451851471419"
+    },
+    "mautic:mautic": {
+        "stars": 7712,
+        "code_smells": "9035",
+        "cognitive_complexity": "40236",
+        "ncloc": "449367",
+        "norm_code_smells": "0.02010606030260344",
+        "norm_cognitive_complexity": "0.08953928526126752"
+    },
+    "vrana:adminer": {
+        "stars": 6378,
+        "code_smells": "2442",
+        "cognitive_complexity": "8164",
+        "ncloc": "37995",
+        "norm_code_smells": "0.06427161468614291",
+        "norm_cognitive_complexity": "0.21487037768127384"
+    },
+    "joomla:joomla-cms": {
+        "stars": 4841,
+        "code_smells": "6016",
+        "cognitive_complexity": "52740",
+        "ncloc": "319775",
+        "norm_code_smells": "0.01881322805097334",
+        "norm_cognitive_complexity": "0.16492846532718317"
+    },
+    "Dolibarr:dolibarr": {
+        "stars": 5791,
+        "code_smells": "99089",
+        "cognitive_complexity": "556746",
+        "ncloc": "1345901",
+        "norm_code_smells": "0.07362279989390007",
+        "norm_cognitive_complexity": "0.4136604401066646"
+    },
+    "wp-cli:wp-cli": {
+        "stars": 4898,
+        "code_smells": "1118",
+        "cognitive_complexity": "3661",
+        "ncloc": "15036",
+        "norm_code_smells": "0.07435488161745145",
+        "norm_cognitive_complexity": "0.24348230912476723"
+    },
+    "matomo-org:matomo": {
+        "stars": 20270,
+        "code_smells": "22314",
+        "cognitive_complexity": "119873",
+        "ncloc": "918952",
+        "norm_code_smells": "0.024282008200645952",
+        "norm_cognitive_complexity": "0.13044533337976302"
+    },
+    "zabbix:zabbix": {
+        "stars": 4704,
+        "code_smells": "23951",
+        "cognitive_complexity": "164404",
+        "ncloc": "766926",
+        "norm_code_smells": "0.031229870939308357",
+        "norm_cognitive_complexity": "0.21436748786714754"
+    },
+    "codeigniter4:CodeIgniter4": {
+        "stars": 5527,
+        "code_smells": "2779",
+        "cognitive_complexity": "13652",
+        "ncloc": "142172",
+        "norm_code_smells": "0.019546746194750022",
+        "norm_cognitive_complexity": "0.0960245336634499"
+    },
+    "filamentphp:filament": {
+        "stars": 21815,
+        "code_smells": "1828",
+        "cognitive_complexity": "7423",
+        "ncloc": "159272",
+        "norm_code_smells": "0.011477221357175146",
+        "norm_cognitive_complexity": "0.04660580641920739"
+    },
+    "rectorphp:rector": {
+        "stars": 9408,
+        "code_smells": "1328",
+        "cognitive_complexity": "12444",
+        "ncloc": "80630",
+        "norm_code_smells": "0.016470296415726157",
+        "norm_cognitive_complexity": "0.15433461490760264"
+    },
+    "wikimedia:mediawiki": {
+        "stars": 4447,
+        "code_smells": "22213",
+        "cognitive_complexity": "143951",
+        "ncloc": "848112",
+        "norm_code_smells": "0.02619111626766276",
+        "norm_cognitive_complexity": "0.169731120418058"
+    },
+    "sebastianbergmann:phpunit": {
+        "stars": 19799,
+        "code_smells": "1175",
+        "cognitive_complexity": "4224",
+        "ncloc": "94671",
+        "norm_code_smells": "0.012411403703351608",
+        "norm_cognitive_complexity": "0.044617675951452926"
+    },
+    "w7corp:easywechat": {
+        "stars": 10311,
+        "code_smells": "91",
+        "cognitive_complexity": "564",
+        "ncloc": "11791",
+        "norm_code_smells": "0.007717750826901874",
+        "norm_cognitive_complexity": "0.047833093037062166"
+    },
+    "bagisto:bagisto": {
+        "stars": 17184,
+        "code_smells": "5541",
+        "cognitive_complexity": "5106",
+        "ncloc": "221807",
+        "norm_code_smells": "0.024981177329840808",
+        "norm_cognitive_complexity": "0.023020012894092612"
+    },
+    "lcobucci:jwt": {
+        "stars": 7354,
+        "code_smells": "39",
+        "cognitive_complexity": "120",
+        "ncloc": "7353",
+        "norm_code_smells": "0.005303957568339453",
+        "norm_cognitive_complexity": "0.016319869441044473"
+    },
+    "zircote:swagger-php": {
+        "stars": 5149,
+        "code_smells": "493",
+        "cognitive_complexity": "2311",
+        "ncloc": "15431",
+        "norm_code_smells": "0.03194867474564189",
+        "norm_cognitive_complexity": "0.1497634631585769"
+    },
+    "nextcloud:all-in-one": {
+        "stars": 6266,
+        "code_smells": "388",
+        "cognitive_complexity": "1102",
+        "ncloc": "15912",
+        "norm_code_smells": "0.024384112619406737",
+        "norm_cognitive_complexity": "0.06925590749120161"
+    },
+    "WordPress:WordPress": {
+        "stars": 19923,
+        "code_smells": "32594",
+        "cognitive_complexity": "135150",
+        "ncloc": "599071",
+        "norm_code_smells": "0.054407574394353925",
+        "norm_cognitive_complexity": "0.22559930292068886"
+    },
+    "laravel:framework": {
+        "stars": 33250,
+        "code_smells": "4823",
+        "cognitive_complexity": "14474",
+        "ncloc": "268252",
+        "norm_code_smells": "0.017979362688814993",
+        "norm_cognitive_complexity": "0.05395672725646034"
+    },
+    "statamic:cms": {
+        "stars": 4281,
+        "code_smells": "4676",
+        "cognitive_complexity": "16277",
+        "ncloc": "303610",
+        "norm_code_smells": "0.01540133724185633",
+        "norm_cognitive_complexity": "0.05361154112183393"
+    },
+    "ZoneMinder:zoneminder": {
+        "stars": 5355,
+        "code_smells": "84093",
+        "cognitive_complexity": "491218",
+        "ncloc": "498886",
+        "norm_code_smells": "0.16856155514486276",
+        "norm_cognitive_complexity": "0.9846297550943502"
+    },
+    "livewire:livewire": {
+        "stars": 22713,
+        "code_smells": "1403",
+        "cognitive_complexity": "2503",
+        "ncloc": "45374",
+        "norm_code_smells": "0.030920791642791025",
+        "norm_cognitive_complexity": "0.0551637501652929"
+    },
+    "Laravel-Lang:lang": {
+        "stars": 7574,
+        "code_smells": "6",
+        "cognitive_complexity": "1",
+        "ncloc": "906",
+        "norm_code_smells": "0.006622516556291391",
+        "norm_cognitive_complexity": "0.0011037527593818985"
+    },
+    "PHP-CS-Fixer:PHP-CS-Fixer": {
+        "stars": 13036,
+        "code_smells": "2018",
+        "cognitive_complexity": "12943",
+        "ncloc": "212017",
+        "norm_code_smells": "0.00951810468028507",
+        "norm_cognitive_complexity": "0.06104699151483136"
+    },
+    "aws:aws-sdk-php": {
+        "stars": 6083,
+        "code_smells": "1818",
+        "cognitive_complexity": "7653",
+        "ncloc": "95508",
+        "norm_code_smells": "0.019035054655107426",
+        "norm_cognitive_complexity": "0.08012941324286971"
+    },
+    "FreshRSS:FreshRSS": {
+        "stars": 10924,
+        "code_smells": "6660",
+        "cognitive_complexity": "15012",
+        "ncloc": "111209",
+        "norm_code_smells": "0.059887239342139575",
+        "norm_cognitive_complexity": "0.13498907462525514"
+    },
+    "snipe:snipe-it": {
+        "stars": 11766,
+        "code_smells": "8009",
+        "cognitive_complexity": "13158",
+        "ncloc": "345009",
+        "norm_code_smells": "0.02321388717395778",
+        "norm_cognitive_complexity": "0.0381381355268993"
+    },
+    "librenms:librenms": {
+        "stars": 4093,
+        "code_smells": "7046",
+        "cognitive_complexity": "40697",
+        "ncloc": "251342",
+        "norm_code_smells": "0.02803351608565222",
+        "norm_cognitive_complexity": "0.16191881977544542"
+    },
+    "PHPOffice:PhpSpreadsheet": {
+        "stars": 13540,
+        "code_smells": "3484",
+        "cognitive_complexity": "22670",
+        "ncloc": "199994",
+        "norm_code_smells": "0.01742052261567847",
+        "norm_cognitive_complexity": "0.11335340060201807"
+    },
+    "humhub:humhub": {
+        "stars": 6394,
+        "code_smells": "4800",
+        "cognitive_complexity": "13995",
+        "ncloc": "250136",
+        "norm_code_smells": "0.01918956087888189",
+        "norm_cognitive_complexity": "0.05594956343749"
+    },
+    "doctrine:dbal": {
+        "stars": 9555,
+        "code_smells": "456",
+        "cognitive_complexity": "2562",
+        "ncloc": "46744",
+        "norm_code_smells": "0.009755262707513264",
+        "norm_cognitive_complexity": "0.054809173369844255"
+    },
+    "mongodb:laravel-mongodb": {
+        "stars": 7038,
+        "code_smells": "261",
+        "cognitive_complexity": "1055",
+        "ncloc": "19994",
+        "norm_code_smells": "0.013053916174852456",
+        "norm_cognitive_complexity": "0.05276582974892468"
+    },
+    "BookStackApp:BookStack": {
+        "stars": 16153,
+        "code_smells": "2132",
+        "cognitive_complexity": "10634",
+        "ncloc": "187895",
+        "norm_code_smells": "0.011346762819659916",
+        "norm_cognitive_complexity": "0.05659543894196226"
+    },
+    "MISP:MISP": {
+        "stars": 5555,
+        "code_smells": "13144",
+        "cognitive_complexity": "90138",
+        "ncloc": "203646",
+        "norm_code_smells": "0.0645433742867525",
+        "norm_cognitive_complexity": "0.44262101882678767"
+    },
+    "phalcon:cphalcon": {
+        "stars": 10808,
+        "code_smells": "6524",
+        "cognitive_complexity": "1235",
+        "ncloc": "136996",
+        "norm_code_smells": "0.04762182837455108",
+        "norm_cognitive_complexity": "0.009014861747788257"
+    },
+    "bobthecow:psysh": {
+        "stars": 9768,
+        "code_smells": "587",
+        "cognitive_complexity": "3247",
+        "ncloc": "23582",
+        "norm_code_smells": "0.024891866677974727",
+        "norm_cognitive_complexity": "0.13768976337884828"
+    },
+    "akaunting:akaunting": {
+        "stars": 8389,
+        "code_smells": "1933",
+        "cognitive_complexity": "10175",
+        "ncloc": "256120",
+        "norm_code_smells": "0.007547243479618928",
+        "norm_cognitive_complexity": "0.039727471497735437"
+    },
+    "Sylius:Sylius": {
+        "stars": 8123,
+        "code_smells": "1149",
+        "cognitive_complexity": "5311",
+        "ncloc": "252356",
+        "norm_code_smells": "0.004553091664156984",
+        "norm_cognitive_complexity": "0.02104566564694321"
+    },
+    "symfony:symfony": {
+        "stars": 30074,
+        "code_smells": "13802",
+        "cognitive_complexity": "58101",
+        "ncloc": "1536853",
+        "norm_code_smells": "0.008980689760178755",
+        "norm_cognitive_complexity": "0.03780517720302462"
+    },
+    "spatie:laravel-backup": {
+        "stars": 5745,
+        "code_smells": "37",
+        "cognitive_complexity": "246",
+        "ncloc": "5927",
+        "norm_code_smells": "0.006242618525392272",
+        "norm_cognitive_complexity": "0.04150497722287835"
+    },
+    "phpstan:phpstan": {
+        "stars": 13240,
+        "code_smells": "164",
+        "cognitive_complexity": "649",
+        "ncloc": "4719",
+        "norm_code_smells": "0.03475312566221657",
+        "norm_cognitive_complexity": "0.13752913752913754"
+    },
+    "solidtime-io:solidtime": {
+        "stars": 5050,
+        "code_smells": "783",
+        "cognitive_complexity": "2039",
+        "ncloc": "58399",
+        "norm_code_smells": "0.013407763831572458",
+        "norm_cognitive_complexity": "0.03491498142091474"
+    },
+    "php-debugbar:php-debugbar": {
+        "stars": 4233,
+        "code_smells": "385",
+        "cognitive_complexity": "1478",
+        "ncloc": "9822",
+        "norm_code_smells": "0.039197719405416415",
+        "norm_cognitive_complexity": "0.15047851761352066"
+    },
+    "abraham:twitteroauth": {
+        "stars": 4307,
+        "code_smells": "17",
+        "cognitive_complexity": "85",
+        "ncloc": "1646",
+        "norm_code_smells": "0.010328068043742407",
+        "norm_cognitive_complexity": "0.05164034021871203"
+    },
+    "giggsey:libphonenumber-for-php": {
+        "stars": 4828,
+        "code_smells": "25278",
+        "cognitive_complexity": "1516",
+        "ncloc": "512051",
+        "norm_code_smells": "0.04936617641602106",
+        "norm_cognitive_complexity": "0.0029606425922417885"
+    },
+    "cachethq:cachet": {
+        "stars": 14298,
+        "code_smells": "11",
+        "cognitive_complexity": "6",
+        "ncloc": "900",
+        "norm_code_smells": "0.012222222222222223",
+        "norm_cognitive_complexity": "0.006666666666666667"
+    },
+    "symfony:cache": {
+        "stars": 4126,
+        "code_smells": "391",
+        "cognitive_complexity": "2338",
+        "ncloc": "15513",
+        "norm_code_smells": "0.025204667053439052",
+        "norm_cognitive_complexity": "0.15071230580803197"
+    },
+    "invoiceninja:invoiceninja": {
+        "stars": 8634,
+        "code_smells": "12997",
+        "cognitive_complexity": "29009",
+        "ncloc": "903805",
+        "norm_code_smells": "0.014380314337716653",
+        "norm_cognitive_complexity": "0.03209652524604312"
+    },
+    "symfony:flex": {
+        "stars": 4188,
+        "code_smells": "203",
+        "cognitive_complexity": "1671",
+        "ncloc": "11523",
+        "norm_code_smells": "0.017616940032977525",
+        "norm_cognitive_complexity": "0.14501431918771154"
+    },
+    "kanboard:kanboard": {
+        "stars": 8694,
+        "code_smells": "3290",
+        "cognitive_complexity": "8945",
+        "ncloc": "146328",
+        "norm_code_smells": "0.022483735170302336",
+        "norm_cognitive_complexity": "0.06112979060740255"
+    },
+    "firefly-iii:firefly-iii": {
+        "stars": 18269,
+        "code_smells": "2489",
+        "cognitive_complexity": "14786",
+        "ncloc": "158441",
+        "norm_code_smells": "0.015709317663988486",
+        "norm_cognitive_complexity": "0.09332180433094969"
+    },
+    "phpDocumentor:phpDocumentor": {
+        "stars": 4180,
+        "code_smells": "747",
+        "cognitive_complexity": "1912",
+        "ncloc": "58935",
+        "norm_code_smells": "0.012674980911173327",
+        "norm_cognitive_complexity": "0.03244252142190549"
+    },
+    "monicahq:monica": {
+        "stars": 22299,
+        "code_smells": "727",
+        "cognitive_complexity": "1758",
+        "ncloc": "125323",
+        "norm_code_smells": "0.005801010189669893",
+        "norm_cognitive_complexity": "0.014027752288087583"
+    },
+    "kuaifan:dootask": {
+        "stars": 4861,
+        "code_smells": "9439",
+        "cognitive_complexity": "20253",
+        "ncloc": "259507",
+        "norm_code_smells": "0.03637281460615706",
+        "norm_cognitive_complexity": "0.07804413753771575"
+    },
+    "deployphp:deployer": {
+        "stars": 10731,
+        "code_smells": "360",
+        "cognitive_complexity": "2114",
+        "ncloc": "13754",
+        "norm_code_smells": "0.026174203867965682",
+        "norm_cognitive_complexity": "0.15370074160244293"
+    },
+    "pixelfed:pixelfed": {
+        "stars": 6456,
+        "code_smells": "4896",
+        "cognitive_complexity": "12208",
+        "ncloc": "180749",
+        "norm_code_smells": "0.02708728678996841",
+        "norm_cognitive_complexity": "0.06754117588479051"
+    },
+    "RaspAP:raspap-webgui": {
+        "stars": 4656,
+        "code_smells": "1025",
+        "cognitive_complexity": "2401",
+        "ncloc": "10494",
+        "norm_code_smells": "0.09767486182580522",
+        "norm_cognitive_complexity": "0.22879740804269105"
+    },
+    "cakephp:cakephp": {
+        "stars": 8722,
+        "code_smells": "4651",
+        "cognitive_complexity": "12843",
+        "ncloc": "204401",
+        "norm_code_smells": "0.02275429180874849",
+        "norm_cognitive_complexity": "0.06283237361852437"
+    },
+    "phpmyadmin:phpmyadmin": {
+        "stars": 7423,
+        "code_smells": "5971",
+        "cognitive_complexity": "23094",
+        "ncloc": "247008",
+        "norm_code_smells": "0.024173306127736754",
+        "norm_cognitive_complexity": "0.09349494753206374"
+    },
+    "yajra:laravel-datatables": {
+        "stars": 4796,
+        "code_smells": "45",
+        "cognitive_complexity": "460",
+        "ncloc": "4643",
+        "norm_code_smells": "0.009692009476631487",
+        "norm_cognitive_complexity": "0.09907387465001077"
+    },
+    "koel:koel": {
+        "stars": 16277,
+        "code_smells": "360",
+        "cognitive_complexity": "1742",
+        "ncloc": "51131",
+        "norm_code_smells": "0.007040738495237723",
+        "norm_cognitive_complexity": "0.034069351274178095"
+    },
+    "slimphp:Slim": {
+        "stars": 12055,
+        "code_smells": "322",
+        "cognitive_complexity": "381",
+        "ncloc": "10550",
+        "norm_code_smells": "0.03052132701421801",
+        "norm_cognitive_complexity": "0.03611374407582938"
+    },
+    "spatie:laravel-permission": {
+        "stars": 12370,
+        "code_smells": "94",
+        "cognitive_complexity": "454",
+        "ncloc": "7031",
+        "norm_code_smells": "0.013369364244062012",
+        "norm_cognitive_complexity": "0.06457118475323567"
+    },
+    "Respect:Validation": {
+        "stars": 5844,
+        "code_smells": "113",
+        "cognitive_complexity": "621",
+        "ncloc": "29452",
+        "norm_code_smells": "0.00383675132418851",
+        "norm_cognitive_complexity": "0.02108515550726606"
+    },
+    "orchidsoftware:platform": {
+        "stars": 4546,
+        "code_smells": "239",
+        "cognitive_complexity": "633",
+        "ncloc": "24737",
+        "norm_code_smells": "0.0096616404576141",
+        "norm_cognitive_complexity": "0.025589198366818937"
+    },
+    "PrivateBin:PrivateBin": {
+        "stars": 6920,
+        "code_smells": "762",
+        "cognitive_complexity": "2361",
+        "ncloc": "22491",
+        "norm_code_smells": "0.033880218754168336",
+        "norm_cognitive_complexity": "0.10497532346271841"
+    },
+    "Leantime:leantime": {
+        "stars": 5117,
+        "code_smells": "5092",
+        "cognitive_complexity": "12964",
+        "ncloc": "146757",
+        "norm_code_smells": "0.034696811736407804",
+        "norm_cognitive_complexity": "0.08833650183636896"
+    },
+    "elastic:elasticsearch-php": {
+        "stars": 5331,
+        "code_smells": "438",
+        "cognitive_complexity": "1117",
+        "ncloc": "13381",
+        "norm_code_smells": "0.032732979597937376",
+        "norm_cognitive_complexity": "0.08347657125775353"
+    },
+    "doctrine:orm": {
+        "stars": 10010,
+        "code_smells": "1214",
+        "cognitive_complexity": "6528",
+        "ncloc": "113614",
+        "norm_code_smells": "0.010685302867604345",
+        "norm_cognitive_complexity": "0.057457707676870806"
+    },
+    "exposedev:expose": {
+        "stars": 4345,
+        "code_smells": "71",
+        "cognitive_complexity": "591",
+        "ncloc": "9356",
+        "norm_code_smells": "0.0075887131252672085",
+        "norm_cognitive_complexity": "0.06316802052159043"
+    },
+    "predis:predis": {
+        "stars": 7650,
+        "code_smells": "1186",
+        "cognitive_complexity": "1988",
+        "ncloc": "58407",
+        "norm_code_smells": "0.020305785265464758",
+        "norm_cognitive_complexity": "0.03403701611108258"
+    },
+    "hyperf:hyperf": {
+        "stars": 6369,
+        "code_smells": "2583",
+        "cognitive_complexity": "12630",
+        "ncloc": "165930",
+        "norm_code_smells": "0.015566805279334659",
+        "norm_cognitive_complexity": "0.07611643464111373"
+    },
+    "tymondesigns:jwt-auth": {
+        "stars": 11362,
+        "code_smells": "88",
+        "cognitive_complexity": "166",
+        "ncloc": "5129",
+        "norm_code_smells": "0.01715734061220511",
+        "norm_cognitive_complexity": "0.03236498342756872"
+    },
+    "Ocramius:ProxyManager": {
+        "stars": 4964,
+        "code_smells": "456",
+        "cognitive_complexity": "221",
+        "ncloc": "17494",
+        "norm_code_smells": "0.026066079798788156",
+        "norm_cognitive_complexity": "0.0126329027095004"
+    },
+    "openmediavault:openmediavault": {
+        "stars": 5477,
+        "code_smells": "3921",
+        "cognitive_complexity": "5609",
+        "ncloc": "72543",
+        "norm_code_smells": "0.054050700963566435",
+        "norm_cognitive_complexity": "0.07731965868519361"
+    },
+    "barryvdh:laravel-ide-helper": {
+        "stars": 14437,
+        "code_smells": "219",
+        "cognitive_complexity": "985",
+        "ncloc": "7747",
+        "norm_code_smells": "0.028269007357686848",
+        "norm_cognitive_complexity": "0.12714599199690202"
+    },
+    "EasyCorp:EasyAdminBundle": {
+        "stars": 4125,
+        "code_smells": "427",
+        "cognitive_complexity": "2479",
+        "ncloc": "41114",
+        "norm_code_smells": "0.010385756676557863",
+        "norm_cognitive_complexity": "0.060295763000437805"
+    },
+    "laravel:socialite": {
+        "stars": 5634,
+        "code_smells": "14",
+        "cognitive_complexity": "57",
+        "ncloc": "2221",
+        "norm_code_smells": "0.006303466906798739",
+        "norm_cognitive_complexity": "0.025664115263394866"
+    },
+    "thephpleague:oauth2-server": {
+        "stars": 6569,
+        "code_smells": "132",
+        "cognitive_complexity": "342",
+        "ncloc": "9794",
+        "norm_code_smells": "0.013477639371043496",
+        "norm_cognitive_complexity": "0.034919338370430875"
+    },
+    "magento:magento2": {
+        "stars": 11706,
+        "code_smells": "39666",
+        "cognitive_complexity": "167398",
+        "ncloc": "2442676",
+        "norm_code_smells": "0.016238747996050233",
+        "norm_cognitive_complexity": "0.06853057875870562"
+    },
+    "aimeos:aimeos-laravel": {
+        "stars": 7604,
+        "code_smells": "156",
+        "cognitive_complexity": "199",
+        "ncloc": "3260",
+        "norm_code_smells": "0.04785276073619632",
+        "norm_cognitive_complexity": "0.061042944785276075"
+    },
+    "yiisoft:yii2": {
+        "stars": 14263,
+        "code_smells": "3244",
+        "cognitive_complexity": "14992",
+        "ncloc": "128290",
+        "norm_code_smells": "0.025286460363239536",
+        "norm_cognitive_complexity": "0.11686023852209837"
+    },
+    "webonyx:graphql-php": {
+        "stars": 4663,
+        "code_smells": "752",
+        "cognitive_complexity": "3747",
+        "ncloc": "65487",
+        "norm_code_smells": "0.011483195137966314",
+        "norm_cognitive_complexity": "0.05721746300792524"
+    },
+    "larastan:larastan": {
+        "stars": 5766,
+        "code_smells": "469",
+        "cognitive_complexity": "1273",
+        "ncloc": "15782",
+        "norm_code_smells": "0.029717399569129388",
+        "norm_cognitive_complexity": "0.08066151311620834"
+    },
+    "leokhoa:laragon": {
+        "stars": 4775,
+        "code_smells": "650",
+        "cognitive_complexity": "1580",
+        "ncloc": "125483",
+        "norm_code_smells": "0.0051799845397384504",
+        "norm_cognitive_complexity": "0.012591347035056542"
+    },
+    "phpro:grumphp": {
+        "stars": 4184,
+        "code_smells": "527",
+        "cognitive_complexity": "916",
+        "ncloc": "29786",
+        "norm_code_smells": "0.01769287584771369",
+        "norm_cognitive_complexity": "0.030752702611965353"
+    },
+    "mledoze:countries": {
+        "stars": 6022,
+        "code_smells": "16",
+        "cognitive_complexity": "34",
+        "ncloc": "720",
+        "norm_code_smells": "0.022222222222222223",
+        "norm_cognitive_complexity": "0.04722222222222222"
+    },
+    "nikic:PHP-Parser": {
+        "stars": 17181,
+        "code_smells": "631",
+        "cognitive_complexity": "2141",
+        "ncloc": "23007",
+        "norm_code_smells": "0.027426435432694397",
+        "norm_cognitive_complexity": "0.09305863432868257"
+    },
+    "andersao:l5-repository": {
+        "stars": 4209,
+        "code_smells": "52",
+        "cognitive_complexity": "449",
+        "ncloc": "3191",
+        "norm_code_smells": "0.01629583202757756",
+        "norm_cognitive_complexity": "0.14070824193042933"
+    },
+    "php-webdriver:php-webdriver": {
+        "stars": 5170,
+        "code_smells": "147",
+        "cognitive_complexity": "791",
+        "ncloc": "12201",
+        "norm_code_smells": "0.012048192771084338",
+        "norm_cognitive_complexity": "0.06483075157773953"
+    },
+    "digininja:DVWA": {
+        "stars": 10751,
+        "code_smells": "991",
+        "cognitive_complexity": "1688",
+        "ncloc": "8469",
+        "norm_code_smells": "0.11701499586728067",
+        "norm_cognitive_complexity": "0.19931514936828434"
+    },
+    "symfony:http-kernel": {
+        "stars": 8131,
+        "code_smells": "517",
+        "cognitive_complexity": "2298",
+        "ncloc": "23089",
+        "norm_code_smells": "0.022391615054787994",
+        "norm_cognitive_complexity": "0.0995279137251505"
+    },
+    "symfony:dependency-injection": {
+        "stars": 4132,
+        "code_smells": "1006",
+        "cognitive_complexity": "5962",
+        "ncloc": "43647",
+        "norm_code_smells": "0.023048548582949573",
+        "norm_cognitive_complexity": "0.1365958714230073"
+    },
+    "symfony:process": {
+        "stars": 7456,
+        "code_smells": "59",
+        "cognitive_complexity": "609",
+        "ncloc": "3647",
+        "norm_code_smells": "0.01617768028516589",
+        "norm_cognitive_complexity": "0.16698656429942418"
+    },
+    "symfony:translation": {
+        "stars": 6623,
+        "code_smells": "122",
+        "cognitive_complexity": "1150",
+        "ncloc": "13673",
+        "norm_code_smells": "0.008922694361149711",
+        "norm_cognitive_complexity": "0.0841073648796899"
+    },
+    "RSS-Bridge:rss-bridge": {
+        "stars": 7752,
+        "code_smells": "1831",
+        "cognitive_complexity": "10712",
+        "ncloc": "72284",
+        "norm_code_smells": "0.025330640252338",
+        "norm_cognitive_complexity": "0.14819323778429527"
+    },
+    "symfony:config": {
+        "stars": 4250,
+        "code_smells": "160",
+        "cognitive_complexity": "1425",
+        "ncloc": "11073",
+        "norm_code_smells": "0.014449561997651947",
+        "norm_cognitive_complexity": "0.12869141154158764"
+    },
+    "symfony:console": {
+        "stars": 9789,
+        "code_smells": "432",
+        "cognitive_complexity": "2498",
+        "ncloc": "23928",
+        "norm_code_smells": "0.01805416248746239",
+        "norm_cognitive_complexity": "0.10439652290203945"
+    },
+    "moodle:moodle": {
+        "stars": 5994,
+        "code_smells": "160090",
+        "cognitive_complexity": "521493",
+        "ncloc": "2637082",
+        "norm_code_smells": "0.06070725142411195",
+        "norm_cognitive_complexity": "0.19775380515281663"
+    }
+}

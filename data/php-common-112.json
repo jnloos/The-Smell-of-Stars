@@ -1,0 +1,898 @@
+{
+    "mainwp:Code-Snippets-Functions": {
+        "stars": 91,
+        "code_smells": "6",
+        "cognitive_complexity": "25",
+        "ncloc": "62",
+        "norm_code_smells": "0.0967741935483871",
+        "norm_cognitive_complexity": "0.4032258064516129"
+    },
+    "Aspen-Discovery:aspen-discovery": {
+        "stars": 46,
+        "code_smells": "35120",
+        "cognitive_complexity": "103122",
+        "ncloc": "545862",
+        "norm_code_smells": "0.06433860572818771",
+        "norm_cognitive_complexity": "0.1889158798377612"
+    },
+    "sonata-project:dev-kit": {
+        "stars": 42,
+        "code_smells": "60",
+        "cognitive_complexity": "423",
+        "ncloc": "10769",
+        "norm_code_smells": "0.005571547961742037",
+        "norm_cognitive_complexity": "0.03927941313028136"
+    },
+    "glhd:bits": {
+        "stars": 90,
+        "code_smells": "65",
+        "cognitive_complexity": "72",
+        "ncloc": "2358",
+        "norm_code_smells": "0.0275657336726039",
+        "norm_cognitive_complexity": "0.030534351145038167"
+    },
+    "Kitware:CDash": {
+        "stars": 224,
+        "code_smells": "4502",
+        "cognitive_complexity": "12826",
+        "ncloc": "301415",
+        "norm_code_smells": "0.01493621750742332",
+        "norm_cognitive_complexity": "0.04255262677703499"
+    },
+    "glhd:gretel": {
+        "stars": 251,
+        "code_smells": "87",
+        "cognitive_complexity": "100",
+        "ncloc": "3867",
+        "norm_code_smells": "0.022498060512024826",
+        "norm_cognitive_complexity": "0.025859839668994054"
+    },
+    "digital-services-act:transparency-database": {
+        "stars": 43,
+        "code_smells": "2053",
+        "cognitive_complexity": "10385",
+        "ncloc": "27247",
+        "norm_code_smells": "0.07534774470583917",
+        "norm_cognitive_complexity": "0.38114287811502184"
+    },
+    "MbinOrg:mbin": {
+        "stars": 293,
+        "code_smells": "1662",
+        "cognitive_complexity": "5959",
+        "ncloc": "123977",
+        "norm_code_smells": "0.013405712349871347",
+        "norm_cognitive_complexity": "0.04806536696322705"
+    },
+    "rectorphp:rector-phpunit": {
+        "stars": 83,
+        "code_smells": "1059",
+        "cognitive_complexity": "1375",
+        "ncloc": "19513",
+        "norm_code_smells": "0.05427151130015887",
+        "norm_cognitive_complexity": "0.07046584328396453"
+    },
+    "phpstan:phpstan-webmozart-assert": {
+        "stars": 168,
+        "code_smells": "51",
+        "cognitive_complexity": "90",
+        "ncloc": "2331",
+        "norm_code_smells": "0.021879021879021878",
+        "norm_cognitive_complexity": "0.03861003861003861"
+    },
+    "MhdiTaheri:V2rayCollector": {
+        "stars": 149,
+        "code_smells": "7",
+        "cognitive_complexity": "11",
+        "ncloc": "162",
+        "norm_code_smells": "0.043209876543209874",
+        "norm_cognitive_complexity": "0.06790123456790123"
+    },
+    "PrestaShop:autoupgrade": {
+        "stars": 117,
+        "code_smells": "474",
+        "cognitive_complexity": "2275",
+        "ncloc": "129281",
+        "norm_code_smells": "0.0036664320356432885",
+        "norm_cognitive_complexity": "0.01759732675335123"
+    },
+    "Setiawan007:Sistem-Informasi-Keuangan": {
+        "stars": 48,
+        "code_smells": "7485",
+        "cognitive_complexity": "8471",
+        "ncloc": "97190",
+        "norm_code_smells": "0.07701409610042186",
+        "norm_cognitive_complexity": "0.0871591727543986"
+    },
+    "markjaquith:WordPress": {
+        "stars": 226,
+        "code_smells": "32594",
+        "cognitive_complexity": "135151",
+        "ncloc": "599073",
+        "norm_code_smells": "0.054407392755140026",
+        "norm_cognitive_complexity": "0.22560021900502944"
+    },
+    "YesWiki:yeswiki": {
+        "stars": 114,
+        "code_smells": "2641",
+        "cognitive_complexity": "15990",
+        "ncloc": "101804",
+        "norm_code_smells": "0.025942006208007545",
+        "norm_cognitive_complexity": "0.15706651997956858"
+    },
+    "fudaoji:wxbot": {
+        "stars": 54,
+        "code_smells": "9555",
+        "cognitive_complexity": "15768",
+        "ncloc": "124161",
+        "norm_code_smells": "0.07695653224442457",
+        "norm_cognitive_complexity": "0.1269963998356972"
+    },
+    "Automattic:newspack-plugin": {
+        "stars": 336,
+        "code_smells": "3551",
+        "cognitive_complexity": "7212",
+        "ncloc": "62042",
+        "norm_code_smells": "0.05723542116630669",
+        "norm_cognitive_complexity": "0.11624383482157248"
+    },
+    "yutao8:starred": {
+        "stars": 66,
+        "code_smells": "17",
+        "cognitive_complexity": "60",
+        "ncloc": "274",
+        "norm_code_smells": "0.06204379562043796",
+        "norm_cognitive_complexity": "0.21897810218978103"
+    },
+    "rekryt:iplist": {
+        "stars": 222,
+        "code_smells": "39",
+        "cognitive_complexity": "308",
+        "ncloc": "1602",
+        "norm_code_smells": "0.024344569288389514",
+        "norm_cognitive_complexity": "0.19225967540574282"
+    },
+    "Automattic:newspack-newsletters": {
+        "stars": 112,
+        "code_smells": "1479",
+        "cognitive_complexity": "3748",
+        "ncloc": "26310",
+        "norm_code_smells": "0.05621436716077537",
+        "norm_cognitive_complexity": "0.14245534017483846"
+    },
+    "polylang:polylang": {
+        "stars": 358,
+        "code_smells": "2226",
+        "cognitive_complexity": "5459",
+        "ncloc": "36943",
+        "norm_code_smells": "0.060254987413041715",
+        "norm_cognitive_complexity": "0.14776818341769754"
+    },
+    "taksssss:EPG-Server": {
+        "stars": 390,
+        "code_smells": "1523",
+        "cognitive_complexity": "6229",
+        "ncloc": "14590",
+        "norm_code_smells": "0.1043865661411926",
+        "norm_cognitive_complexity": "0.42693625771076077"
+    },
+    "zenphoto:zenphoto": {
+        "stars": 303,
+        "code_smells": "15133",
+        "cognitive_complexity": "60509",
+        "ncloc": "176214",
+        "norm_code_smells": "0.0858785340551829",
+        "norm_cognitive_complexity": "0.3433836131067906"
+    },
+    "flow-php:etl": {
+        "stars": 349,
+        "code_smells": "520",
+        "cognitive_complexity": "2624",
+        "ncloc": "41897",
+        "norm_code_smells": "0.012411389836981169",
+        "norm_cognitive_complexity": "0.06262978256199728"
+    },
+    "pelmered:filament-money-field": {
+        "stars": 75,
+        "code_smells": "12",
+        "cognitive_complexity": "38",
+        "ncloc": "1336",
+        "norm_code_smells": "0.008982035928143712",
+        "norm_cognitive_complexity": "0.02844311377245509"
+    },
+    "soderlind:wp-loupe": {
+        "stars": 51,
+        "code_smells": "132",
+        "cognitive_complexity": "89",
+        "ncloc": "777",
+        "norm_code_smells": "0.16988416988416988",
+        "norm_cognitive_complexity": "0.11454311454311454"
+    },
+    "EGroupware:egroupware": {
+        "stars": 261,
+        "code_smells": "30055",
+        "cognitive_complexity": "98640",
+        "ncloc": "382498",
+        "norm_code_smells": "0.07857557425136863",
+        "norm_cognitive_complexity": "0.2578837013526868"
+    },
+    "kaltura:server": {
+        "stars": 382,
+        "code_smells": "98431",
+        "cognitive_complexity": "162152",
+        "ncloc": "1109641",
+        "norm_code_smells": "0.08870526593736172",
+        "norm_cognitive_complexity": "0.1461301447945777"
+    },
+    "Automattic:vip-go-mu-plugins-built": {
+        "stars": 136,
+        "code_smells": "27856",
+        "cognitive_complexity": "70050",
+        "ncloc": "396658",
+        "norm_code_smells": "0.07022674444987874",
+        "norm_cognitive_complexity": "0.17660049715371934"
+    },
+    "Automattic:vip-go-mu-plugins": {
+        "stars": 208,
+        "code_smells": "7352",
+        "cognitive_complexity": "14467",
+        "ncloc": "90333",
+        "norm_code_smells": "0.08138775419835498",
+        "norm_cognitive_complexity": "0.16015188247927115"
+    },
+    "impress-org:givewp": {
+        "stars": 346,
+        "code_smells": "6691",
+        "cognitive_complexity": "21650",
+        "ncloc": "230432",
+        "norm_code_smells": "0.029036765726982362",
+        "norm_cognitive_complexity": "0.09395396472712124"
+    },
+    "SWU-Petranaki:SWUOnline": {
+        "stars": 58,
+        "code_smells": "7210",
+        "cognitive_complexity": "15370",
+        "ncloc": "54506",
+        "norm_code_smells": "0.13227901515429494",
+        "norm_cognitive_complexity": "0.28198730415000184"
+    },
+    "j0k3r:f43.me": {
+        "stars": 66,
+        "code_smells": "154",
+        "cognitive_complexity": "493",
+        "ncloc": "8568",
+        "norm_code_smells": "0.017973856209150325",
+        "norm_cognitive_complexity": "0.057539682539682536"
+    },
+    "nightflyza:Ubilling": {
+        "stars": 139,
+        "code_smells": "34901",
+        "cognitive_complexity": "89953",
+        "ncloc": "349738",
+        "norm_code_smells": "0.09979184418050083",
+        "norm_cognitive_complexity": "0.25720110482704195"
+    },
+    "johnpbloch:wordpress-core": {
+        "stars": 170,
+        "code_smells": "32594",
+        "cognitive_complexity": "135151",
+        "ncloc": "599073",
+        "norm_code_smells": "0.054407392755140026",
+        "norm_cognitive_complexity": "0.22560021900502944"
+    },
+    "vakhov:fresh-proxy-list": {
+        "stars": 162,
+        "code_smells": "1",
+        "cognitive_complexity": "11",
+        "ncloc": "221716",
+        "norm_code_smells": "4.510274405094806e-06",
+        "norm_cognitive_complexity": "4.961301845604287e-05"
+    },
+    "stephenjude:filament-two-factor-authentication": {
+        "stars": 48,
+        "code_smells": "12",
+        "cognitive_complexity": "77",
+        "ncloc": "1287",
+        "norm_code_smells": "0.009324009324009324",
+        "norm_cognitive_complexity": "0.05982905982905983"
+    },
+    "SymfonyCasts:tailwind-bundle": {
+        "stars": 96,
+        "code_smells": "20",
+        "cognitive_complexity": "76",
+        "ncloc": "917",
+        "norm_code_smells": "0.021810250817884406",
+        "norm_cognitive_complexity": "0.08287895310796074"
+    },
+    "Adyen:adyen-magento2": {
+        "stars": 158,
+        "code_smells": "406",
+        "cognitive_complexity": "2728",
+        "ncloc": "55297",
+        "norm_code_smells": "0.007342170461327016",
+        "norm_cognitive_complexity": "0.049333598567734234"
+    },
+    "phpstan:phpstan-src": {
+        "stars": 342,
+        "code_smells": "19792",
+        "cognitive_complexity": "39771",
+        "ncloc": "432725",
+        "norm_code_smells": "0.045738055346929346",
+        "norm_cognitive_complexity": "0.09190825582067133"
+    },
+    "GravityKit:GravityView": {
+        "stars": 245,
+        "code_smells": "5514",
+        "cognitive_complexity": "10118",
+        "ncloc": "67505",
+        "norm_code_smells": "0.08168283830827346",
+        "norm_cognitive_complexity": "0.14988519368935635"
+    },
+    "tighten:ozzie": {
+        "stars": 57,
+        "code_smells": "83",
+        "cognitive_complexity": "76",
+        "ncloc": "5570",
+        "norm_code_smells": "0.014901256732495512",
+        "norm_cognitive_complexity": "0.013644524236983842"
+    },
+    "xepozz:meta-storm-idea-plugin": {
+        "stars": 69,
+        "code_smells": "114",
+        "cognitive_complexity": "0",
+        "ncloc": "1093",
+        "norm_code_smells": "0.10430009149130832",
+        "norm_cognitive_complexity": "0.0"
+    },
+    "contao:core-bundle": {
+        "stars": 123,
+        "code_smells": "2465",
+        "cognitive_complexity": "22020",
+        "ncloc": "183225",
+        "norm_code_smells": "0.013453404284349843",
+        "norm_cognitive_complexity": "0.12018010642652477"
+    },
+    "drupal:core": {
+        "stars": 189,
+        "code_smells": "31061",
+        "cognitive_complexity": "63423",
+        "ncloc": "995965",
+        "norm_code_smells": "0.031186838894941088",
+        "norm_cognitive_complexity": "0.06367994859257102"
+    },
+    "extcode:cart": {
+        "stars": 57,
+        "code_smells": "184",
+        "cognitive_complexity": "1313",
+        "ncloc": "25543",
+        "norm_code_smells": "0.00720353913009435",
+        "norm_cognitive_complexity": "0.051403515640292836"
+    },
+    "Ardakilic:laravel-mutlucell-sms": {
+        "stars": 45,
+        "code_smells": "21",
+        "cognitive_complexity": "52",
+        "ncloc": "445",
+        "norm_code_smells": "0.04719101123595506",
+        "norm_cognitive_complexity": "0.11685393258426967"
+    },
+    "contao:contao": {
+        "stars": 361,
+        "code_smells": "2815",
+        "cognitive_complexity": "25131",
+        "ncloc": "210169",
+        "norm_code_smells": "0.013393982937540742",
+        "norm_cognitive_complexity": "0.11957519900651381"
+    },
+    "Cotonti:Cotonti": {
+        "stars": 97,
+        "code_smells": "3938",
+        "cognitive_complexity": "21645",
+        "ncloc": "71754",
+        "norm_code_smells": "0.054881957800262005",
+        "norm_cognitive_complexity": "0.30165565682749396"
+    },
+    "the-events-calendar:the-events-calendar": {
+        "stars": 321,
+        "code_smells": "10326",
+        "cognitive_complexity": "13043",
+        "ncloc": "193680",
+        "norm_code_smells": "0.05331474597273854",
+        "norm_cognitive_complexity": "0.06734304006608839"
+    },
+    "elightup:slim-seo": {
+        "stars": 69,
+        "code_smells": "1095",
+        "cognitive_complexity": "1504",
+        "ncloc": "12752",
+        "norm_code_smells": "0.08586888331242158",
+        "norm_cognitive_complexity": "0.11794228356336262"
+    },
+    "the-events-calendar:event-tickets": {
+        "stars": 86,
+        "code_smells": "9694",
+        "cognitive_complexity": "13014",
+        "ncloc": "238626",
+        "norm_code_smells": "0.04062424044320401",
+        "norm_cognitive_complexity": "0.05453722561665535"
+    },
+    "thefeqy:laravel-model-status": {
+        "stars": 41,
+        "code_smells": "4",
+        "cognitive_complexity": "28",
+        "ncloc": "624",
+        "norm_code_smells": "0.00641025641025641",
+        "norm_cognitive_complexity": "0.04487179487179487"
+    },
+    "the-events-calendar:tribe-common": {
+        "stars": 78,
+        "code_smells": "7178",
+        "cognitive_complexity": "8645",
+        "ncloc": "84334",
+        "norm_code_smells": "0.08511395166836626",
+        "norm_cognitive_complexity": "0.10250907107453697"
+    },
+    "imliam:cpx": {
+        "stars": 316,
+        "code_smells": "20",
+        "cognitive_complexity": "244",
+        "ncloc": "1213",
+        "norm_code_smells": "0.016488046166529265",
+        "norm_cognitive_complexity": "0.20115416323165705"
+    },
+    "basis-company:nats.php": {
+        "stars": 146,
+        "code_smells": "151",
+        "cognitive_complexity": "401",
+        "ncloc": "4682",
+        "norm_code_smells": "0.03225117471166168",
+        "norm_cognitive_complexity": "0.0856471593336181"
+    },
+    "vufind-org:vufind": {
+        "stars": 276,
+        "code_smells": "4763",
+        "cognitive_complexity": "31029",
+        "ncloc": "245141",
+        "norm_code_smells": "0.019429634373686982",
+        "norm_cognitive_complexity": "0.12657613373527887"
+    },
+    "suqicloud:wp-ai-chat": {
+        "stars": 62,
+        "code_smells": "441",
+        "cognitive_complexity": "1118",
+        "ncloc": "5492",
+        "norm_code_smells": "0.08029861616897305",
+        "norm_cognitive_complexity": "0.2035688273852877"
+    },
+    "mkucej:i-librarian-free": {
+        "stars": 283,
+        "code_smells": "5510",
+        "cognitive_complexity": "20571",
+        "ncloc": "120423",
+        "norm_code_smells": "0.0457553789558473",
+        "norm_cognitive_complexity": "0.17082284945566878"
+    },
+    "danielme85:laravel-log-to-db": {
+        "stars": 138,
+        "code_smells": "48",
+        "cognitive_complexity": "126",
+        "ncloc": "1017",
+        "norm_code_smells": "0.0471976401179941",
+        "norm_cognitive_complexity": "0.12389380530973451"
+    },
+    "yiisoft:security": {
+        "stars": 42,
+        "code_smells": "38",
+        "cognitive_complexity": "30",
+        "ncloc": "1385",
+        "norm_code_smells": "0.027436823104693142",
+        "norm_cognitive_complexity": "0.021660649819494584"
+    },
+    "phplucidframe:console-table": {
+        "stars": 101,
+        "code_smells": "12",
+        "cognitive_complexity": "82",
+        "ncloc": "501",
+        "norm_code_smells": "0.023952095808383235",
+        "norm_cognitive_complexity": "0.16367265469061876"
+    },
+    "orchestral:canvas": {
+        "stars": 199,
+        "code_smells": "229",
+        "cognitive_complexity": "93",
+        "ncloc": "6211",
+        "norm_code_smells": "0.03687006923200773",
+        "norm_cognitive_complexity": "0.014973434229592658"
+    },
+    "mailpoet:mailpoet": {
+        "stars": 141,
+        "code_smells": "7934",
+        "cognitive_complexity": "18567",
+        "ncloc": "406598",
+        "norm_code_smells": "0.01951313090571031",
+        "norm_cognitive_complexity": "0.04566426790097344"
+    },
+    "Adyen:adyen-php-api-library": {
+        "stars": 161,
+        "code_smells": "3317",
+        "cognitive_complexity": "27987",
+        "ncloc": "310748",
+        "norm_code_smells": "0.010674244082021445",
+        "norm_cognitive_complexity": "0.09006333105925059"
+    },
+    "yiisoft:yii-bootstrap5": {
+        "stars": 63,
+        "code_smells": "487",
+        "cognitive_complexity": "220",
+        "ncloc": "18295",
+        "norm_code_smells": "0.02661929488931402",
+        "norm_cognitive_complexity": "0.012025143481825635"
+    },
+    "facile-it:paraunit": {
+        "stars": 142,
+        "code_smells": "106",
+        "cognitive_complexity": "342",
+        "ncloc": "9354",
+        "norm_code_smells": "0.011332050459696387",
+        "norm_cognitive_complexity": "0.036561898652982684"
+    },
+    "orchestral:testbench-core": {
+        "stars": 263,
+        "code_smells": "138",
+        "cognitive_complexity": "680",
+        "ncloc": "9502",
+        "norm_code_smells": "0.014523258261418648",
+        "norm_cognitive_complexity": "0.07156388128814986"
+    },
+    "BracketSpace:WP-Admin-Reference": {
+        "stars": 41,
+        "code_smells": "68",
+        "cognitive_complexity": "27",
+        "ncloc": "897",
+        "norm_code_smells": "0.0758082497212932",
+        "norm_cognitive_complexity": "0.030100334448160536"
+    },
+    "eventschedule:eventschedule": {
+        "stars": 104,
+        "code_smells": "600",
+        "cognitive_complexity": "1046",
+        "ncloc": "15651",
+        "norm_code_smells": "0.03833620854897451",
+        "norm_cognitive_complexity": "0.06683279023704555"
+    },
+    "rectorphp:rector-doctrine": {
+        "stars": 64,
+        "code_smells": "408",
+        "cognitive_complexity": "656",
+        "ncloc": "10395",
+        "norm_code_smells": "0.03924963924963925",
+        "norm_cognitive_complexity": "0.06310726310726311"
+    },
+    "twigstan:twigstan": {
+        "stars": 233,
+        "code_smells": "138",
+        "cognitive_complexity": "1032",
+        "ncloc": "9560",
+        "norm_code_smells": "0.014435146443514645",
+        "norm_cognitive_complexity": "0.10794979079497909"
+    },
+    "voronkovich:sberbank-acquiring-client": {
+        "stars": 192,
+        "code_smells": "22",
+        "cognitive_complexity": "85",
+        "ncloc": "1520",
+        "norm_code_smells": "0.014473684210526316",
+        "norm_cognitive_complexity": "0.05592105263157895"
+    },
+    "pkp:omp": {
+        "stars": 131,
+        "code_smells": "856",
+        "cognitive_complexity": "3866",
+        "ncloc": "272278",
+        "norm_code_smells": "0.003143845628365127",
+        "norm_cognitive_complexity": "0.014198723363621005"
+    },
+    "umbrellio:laravel-pg-extensions": {
+        "stars": 94,
+        "code_smells": "22",
+        "cognitive_complexity": "80",
+        "ncloc": "2243",
+        "norm_code_smells": "0.00980829246544806",
+        "norm_cognitive_complexity": "0.03566651805617477"
+    },
+    "greenpeace:planet4-master-theme": {
+        "stars": 69,
+        "code_smells": "1604",
+        "cognitive_complexity": "3646",
+        "ncloc": "49857",
+        "norm_code_smells": "0.03217201195418898",
+        "norm_cognitive_complexity": "0.07312914936719016"
+    },
+    "lifo101:php-daemon": {
+        "stars": 49,
+        "code_smells": "138",
+        "cognitive_complexity": "811",
+        "ncloc": "4051",
+        "norm_code_smells": "0.03406566279930881",
+        "norm_cognitive_complexity": "0.2001974821031844"
+    },
+    "devcode-it:openstamanager": {
+        "stars": 117,
+        "code_smells": "20113",
+        "cognitive_complexity": "49666",
+        "ncloc": "191385",
+        "norm_code_smells": "0.10509183060323432",
+        "norm_cognitive_complexity": "0.25950832092379233"
+    },
+    "ory:sdk": {
+        "stars": 150,
+        "code_smells": "16315",
+        "cognitive_complexity": "91264",
+        "ncloc": "644200",
+        "norm_code_smells": "0.025325985718720894",
+        "norm_cognitive_complexity": "0.141670288730208"
+    },
+    "nextcloud:circles": {
+        "stars": 153,
+        "code_smells": "2094",
+        "cognitive_complexity": "3219",
+        "ncloc": "46926",
+        "norm_code_smells": "0.044623449686740826",
+        "norm_cognitive_complexity": "0.06859736606572049"
+    },
+    "AlternC:AlternC": {
+        "stars": 112,
+        "code_smells": "5304",
+        "cognitive_complexity": "6413",
+        "ncloc": "25799",
+        "norm_code_smells": "0.20558936392883445",
+        "norm_cognitive_complexity": "0.2485755261831854"
+    },
+    "guanguans:laravel-exception-notify": {
+        "stars": 129,
+        "code_smells": "29",
+        "cognitive_complexity": "142",
+        "ncloc": "2746",
+        "norm_code_smells": "0.01056081573197378",
+        "norm_cognitive_complexity": "0.051711580480699196"
+    },
+    "bootscore:bootscore": {
+        "stars": 327,
+        "code_smells": "800",
+        "cognitive_complexity": "5451",
+        "ncloc": "27400",
+        "norm_code_smells": "0.029197080291970802",
+        "norm_cognitive_complexity": "0.19894160583941606"
+    },
+    "Talishar:Talishar": {
+        "stars": 108,
+        "code_smells": "11220",
+        "cognitive_complexity": "22747",
+        "ncloc": "94896",
+        "norm_code_smells": "0.1182346990389479",
+        "norm_cognitive_complexity": "0.23970451863092226"
+    },
+    "OskarStark:doctor-rst": {
+        "stars": 40,
+        "code_smells": "219",
+        "cognitive_complexity": "1031",
+        "ncloc": "18233",
+        "norm_code_smells": "0.012011188504360226",
+        "norm_cognitive_complexity": "0.056545823506828276"
+    },
+    "cubecart:v6": {
+        "stars": 74,
+        "code_smells": "15355",
+        "cognitive_complexity": "32006",
+        "ncloc": "115674",
+        "norm_code_smells": "0.13274374535332054",
+        "norm_cognitive_complexity": "0.27669139132389303"
+    },
+    "shopsys:shopsys": {
+        "stars": 334,
+        "code_smells": "2032",
+        "cognitive_complexity": "12252",
+        "ncloc": "308223",
+        "norm_code_smells": "0.006592629362507016",
+        "norm_cognitive_complexity": "0.03975044042787203"
+    },
+    "contributte:datagrid": {
+        "stars": 295,
+        "code_smells": "176",
+        "cognitive_complexity": "1574",
+        "ncloc": "10332",
+        "norm_code_smells": "0.017034456058846303",
+        "norm_cognitive_complexity": "0.15234223770809135"
+    },
+    "beeyev:disposable-email-filter-php": {
+        "stars": 46,
+        "code_smells": "33",
+        "cognitive_complexity": "102",
+        "ncloc": "2453",
+        "norm_code_smells": "0.013452914798206279",
+        "norm_cognitive_complexity": "0.04158173664900122"
+    },
+    "raspgot:Contact-Form-PHP": {
+        "stars": 59,
+        "code_smells": "156",
+        "cognitive_complexity": "1007",
+        "ncloc": "3897",
+        "norm_code_smells": "0.04003079291762895",
+        "norm_cognitive_complexity": "0.258403900436233"
+    },
+    "ibericode:koko-analytics": {
+        "stars": 376,
+        "code_smells": "406",
+        "cognitive_complexity": "628",
+        "ncloc": "4708",
+        "norm_code_smells": "0.08623619371282923",
+        "norm_cognitive_complexity": "0.13338997451146983"
+    },
+    "woocommerce:woocommerce-paypal-payments": {
+        "stars": 66,
+        "code_smells": "5030",
+        "cognitive_complexity": "9114",
+        "ncloc": "100292",
+        "norm_code_smells": "0.050153551629242614",
+        "norm_cognitive_complexity": "0.09087464603358195"
+    },
+    "thinhbuzz:laravel-google-captcha": {
+        "stars": 205,
+        "code_smells": "3",
+        "cognitive_complexity": "22",
+        "ncloc": "206",
+        "norm_code_smells": "0.014563106796116505",
+        "norm_cognitive_complexity": "0.10679611650485436"
+    },
+    "godaddy-wordpress:wc-plugin-framework": {
+        "stars": 143,
+        "code_smells": "2086",
+        "cognitive_complexity": "3338",
+        "ncloc": "20020",
+        "norm_code_smells": "0.1041958041958042",
+        "norm_cognitive_complexity": "0.16673326673326674"
+    },
+    "SummerSec:BlogPapers": {
+        "stars": 53,
+        "code_smells": "0",
+        "cognitive_complexity": "0",
+        "ncloc": "185",
+        "norm_code_smells": "0.0",
+        "norm_cognitive_complexity": "0.0"
+    },
+    "php-llm:llm-chain": {
+        "stars": 49,
+        "code_smells": "38",
+        "cognitive_complexity": "409",
+        "ncloc": "7838",
+        "norm_code_smells": "0.0048481755549885175",
+        "norm_cognitive_complexity": "0.05218167899974483"
+    },
+    "AyeCode:invoicing": {
+        "stars": 42,
+        "code_smells": "3960",
+        "cognitive_complexity": "8022",
+        "ncloc": "45508",
+        "norm_code_smells": "0.08701766722334535",
+        "norm_cognitive_complexity": "0.17627669860244352"
+    },
+    "bgerp:bgerp": {
+        "stars": 56,
+        "code_smells": "68692",
+        "cognitive_complexity": "217458",
+        "ncloc": "761585",
+        "norm_code_smells": "0.09019610417747198",
+        "norm_cognitive_complexity": "0.28553345982391987"
+    },
+    "kylekatarnls:business-day": {
+        "stars": 340,
+        "code_smells": "1355",
+        "cognitive_complexity": "515",
+        "ncloc": "12310",
+        "norm_code_smells": "0.11007311129163282",
+        "norm_cognitive_complexity": "0.04183590576766856"
+    },
+    "rectorphp:swiss-knife": {
+        "stars": 153,
+        "code_smells": "26",
+        "cognitive_complexity": "332",
+        "ncloc": "3755",
+        "norm_code_smells": "0.006924101198402131",
+        "norm_cognitive_complexity": "0.08841544607190413"
+    },
+    "magefan:module-blog": {
+        "stars": 266,
+        "code_smells": "588",
+        "cognitive_complexity": "3571",
+        "ncloc": "24927",
+        "norm_code_smells": "0.02358887952822241",
+        "norm_cognitive_complexity": "0.14325831427769087"
+    },
+    "kohler:hotcrp": {
+        "stars": 346,
+        "code_smells": "15594",
+        "cognitive_complexity": "53325",
+        "ncloc": "149976",
+        "norm_code_smells": "0.10397663626180188",
+        "norm_cognitive_complexity": "0.35555688910225636"
+    },
+    "cakephp:cakephp-codesniffer": {
+        "stars": 236,
+        "code_smells": "48",
+        "cognitive_complexity": "272",
+        "ncloc": "1968",
+        "norm_code_smells": "0.024390243902439025",
+        "norm_cognitive_complexity": "0.13821138211382114"
+    },
+    "remp2020:remp": {
+        "stars": 126,
+        "code_smells": "1365",
+        "cognitive_complexity": "8443",
+        "ncloc": "118709",
+        "norm_code_smells": "0.011498706921968848",
+        "norm_cognitive_complexity": "0.07112350369390695"
+    },
+    "Parsely:wp-parsely": {
+        "stars": 65,
+        "code_smells": "905",
+        "cognitive_complexity": "2032",
+        "ncloc": "26588",
+        "norm_code_smells": "0.034037911839927784",
+        "norm_cognitive_complexity": "0.07642545509252294"
+    },
+    "spryker-shop:b2c-demo-shop": {
+        "stars": 49,
+        "code_smells": "678",
+        "cognitive_complexity": "907",
+        "ncloc": "73050",
+        "norm_code_smells": "0.009281314168377823",
+        "norm_cognitive_complexity": "0.01241615331964408"
+    },
+    "KriesiMedia:enfold-library": {
+        "stars": 84,
+        "code_smells": "3870",
+        "cognitive_complexity": "12412",
+        "ncloc": "59019",
+        "norm_code_smells": "0.06557210389874447",
+        "norm_cognitive_complexity": "0.21030515596672258"
+    },
+    "mezzio:mezzio-skeleton": {
+        "stars": 123,
+        "code_smells": "61",
+        "cognitive_complexity": "184",
+        "ncloc": "3408",
+        "norm_code_smells": "0.01789906103286385",
+        "norm_cognitive_complexity": "0.0539906103286385"
+    },
+    "CESNET:pakiti-server": {
+        "stars": 49,
+        "code_smells": "1060",
+        "cognitive_complexity": "1998",
+        "ncloc": "9447",
+        "norm_code_smells": "0.11220493278289403",
+        "norm_cognitive_complexity": "0.211495712924738"
+    },
+    "Cecilapp:Cecil": {
+        "stars": 264,
+        "code_smells": "160",
+        "cognitive_complexity": "1820",
+        "ncloc": "12468",
+        "norm_code_smells": "0.012832852101379532",
+        "norm_cognitive_complexity": "0.14597369265319218"
+    },
+    "FusionWowCMS:FusionCMS": {
+        "stars": 87,
+        "code_smells": "8333",
+        "cognitive_complexity": "15406",
+        "ncloc": "208782",
+        "norm_code_smells": "0.03991244455939688",
+        "norm_cognitive_complexity": "0.07378988610129225"
+    },
+    "oat-sa:tao-core": {
+        "stars": 61,
+        "code_smells": "7844",
+        "cognitive_complexity": "54529",
+        "ncloc": "173718",
+        "norm_code_smells": "0.0451536398070436",
+        "norm_cognitive_complexity": "0.31389378187637434"
+    }
+}
