@@ -9,3 +9,8 @@ PYTHON:
 PHP:
 ../data/php-usual-112.json
 ../data/php-popular-110.json
+
+JAVASCRIPT: 
+../data/js-usual-116.json
+
+RUBY: 

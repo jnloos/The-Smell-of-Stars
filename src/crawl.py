@@ -87,8 +87,8 @@ def main():
             Logger.info(f"Evaluation succeeded for {len(scan_results)} repositories.", 'green')
 
         # Store results in the desired file
-        with open(abs_path, "w") as f:
-            json.dump(dict(scan_results), f, indent=4)
+        with open(abs_path, "w") as file:
+            json.dump(dict(scan_results), file, indent=4)
 
     # Exit dialog and summary
     Logger.br().message(f"The Repository Crawler is done.", color='blue')
