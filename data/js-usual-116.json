@@ -391,14 +391,6 @@
         "norm_code_smells": "0.0024937655860349127",
         "norm_cognitive_complexity": "0.028678304239401497"
     },
-    "MetaLowCodeTeam:MetaLowCode": {
-        "stars": 288,
-        "code_smells": "14815",
-        "cognitive_complexity": "776620",
-        "ncloc": "100662",
-        "norm_code_smells": "0.14717569688661064",
-        "norm_cognitive_complexity": "7.715125866762035"
-    },
     "slate:slate-irc": {
         "stars": 206,
         "code_smells": "131",
