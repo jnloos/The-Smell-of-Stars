@@ -12,18 +12,24 @@ def worker(repo_queue, scan_results, results_lock, failed_repos):
     sonar = Sonar()
     while True:
         try:
-            repo = repo_queue.get_nowait()
+            repo, attempt = repo_queue.get_nowait()
         except queue.Empty:
             break
 
+        attempt += 1
         result = sonar.scan(repo)
+
         if len(result) > 0:
             with results_lock:
                 scan_results[repo.key()] = result
             Logger.info(f"Evaluated repository {repo.key()} with result: {result}")
         else:
-            Logger.error(f"Failed to evaluate repository {repo.key()}")
-            failed_repos.append(repo.key())
+            if attempt < 3:
+                Logger.error(f"Failed to evaluate repository {repo.key()} on attempt {attempt}. Re-adding to queue.")
+                repo_queue.put((repo, attempt + 1))
+            else:
+                Logger.error(f"Failed to evaluate repository {repo.key()} after {attempt} attempts.")
+                failed_repos.append(repo.key())
 
 def main():
     # Load .env file
@@ -32,7 +38,7 @@ def main():
     # Print introduction
     Logger.message('"The smell of Stars" — Repository Crawler (© Jan-Niclas Loosen)', color='blue')
     sonar_credit = 'SonarQube Community Edition (https://www.sonarsource.com)'
-    github_credit = 'GitHub REST API (https://docs.github.com/de/rest)'
+    github_credit = 'GitHub REST API (https://docs.github.com/en/rest)'
     Logger.message(f"Uses: {sonar_credit} and {github_credit}.").br()
 
     # Configuration dialog
@@ -60,8 +66,9 @@ def main():
         results_lock = manager.Lock()
         repo_queue = manager.Queue()
 
+        # Enqueue repo and attempt
         for repo in repos.values():
-            repo_queue.put(repo)
+            repo_queue.put((repo, 0))
         num_processes = int(os.getenv('WORKING_THREADS', 4))
         Logger.debug(f"Spawning {num_processes} processes to process the queue.")
 
