@@ -29,6 +29,12 @@ class Repository:
     def download(self) -> None:
         if not self.__download_status:
             repo_path = self.__destination()
+
+            # Clear path, if it is already existing
+            if os.path.exists(repo_path):
+                shutil.rmtree(repo_path)
+
+            # Create directory and download repository
             os.makedirs(os.path.dirname(repo_path), exist_ok=True)
             try:
                 command = f"git clone {self.url} {repo_path}"

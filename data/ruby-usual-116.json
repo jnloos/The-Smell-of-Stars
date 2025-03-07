@@ -1,0 +1,925 @@
+{
+    "yatish27:shore": {
+        "stars": 71,
+        "code_smells": "2",
+        "cognitive_complexity": "4",
+        "ncloc": "906",
+        "norm_code_smells": "0.002207505518763797",
+        "norm_cognitive_complexity": "0.004415011037527594"
+    },
+    "solectrus:solectrus": {
+        "stars": 117,
+        "code_smells": "183",
+        "cognitive_complexity": "1112",
+        "ncloc": "17222",
+        "norm_code_smells": "0.010625943560562071",
+        "norm_cognitive_complexity": "0.0645685750783881"
+    },
+    "toshimaru:RailsTwitterClone": {
+        "stars": 120,
+        "code_smells": "17",
+        "cognitive_complexity": "46",
+        "ncloc": "2508",
+        "norm_code_smells": "0.006778309409888357",
+        "norm_cognitive_complexity": "0.018341307814992026"
+    },
+    "demarches-simplifiees:demarches-simplifiees.fr": {
+        "stars": 195,
+        "code_smells": "1185",
+        "cognitive_complexity": "6054",
+        "ncloc": "143565",
+        "norm_code_smells": "0.008254100929892384",
+        "norm_cognitive_complexity": "0.042169052345627414"
+    },
+    "openHPI:codeocean": {
+        "stars": 66,
+        "code_smells": "574",
+        "cognitive_complexity": "2260",
+        "ncloc": "30501",
+        "norm_code_smells": "0.018819055112947118",
+        "norm_cognitive_complexity": "0.07409593128094161"
+    },
+    "AlexB52:retest": {
+        "stars": 170,
+        "code_smells": "117",
+        "cognitive_complexity": "205",
+        "ncloc": "7076",
+        "norm_code_smells": "0.016534765404183156",
+        "norm_cognitive_complexity": "0.028971170152628605"
+    },
+    "rubycentral:cfp-app": {
+        "stars": 227,
+        "code_smells": "438",
+        "cognitive_complexity": "985",
+        "ncloc": "22775",
+        "norm_code_smells": "0.019231613611416027",
+        "norm_cognitive_complexity": "0.043249176728869375"
+    },
+    "gitlabhq:omnibus-gitlab": {
+        "stars": 210,
+        "code_smells": "710",
+        "cognitive_complexity": "2788",
+        "ncloc": "63316",
+        "norm_code_smells": "0.011213595299766252",
+        "norm_cognitive_complexity": "0.04403310379682861"
+    },
+    "Coursemology:coursemology2": {
+        "stars": 153,
+        "code_smells": "1278",
+        "cognitive_complexity": "8420",
+        "ncloc": "217597",
+        "norm_code_smells": "0.005873242737721568",
+        "norm_cognitive_complexity": "0.03869538642536432"
+    },
+    "grab:engineering-blog": {
+        "stars": 126,
+        "code_smells": "1605",
+        "cognitive_complexity": "13513",
+        "ncloc": "129590",
+        "norm_code_smells": "0.012385214908557759",
+        "norm_cognitive_complexity": "0.10427502122077321"
+    },
+    "aces:cbrain": {
+        "stars": 75,
+        "code_smells": "1324",
+        "cognitive_complexity": "10564",
+        "ncloc": "100173",
+        "norm_code_smells": "0.013217134357561418",
+        "norm_cognitive_complexity": "0.10545755842392661"
+    },
+    "bdougie:bdougie": {
+        "stars": 42,
+        "code_smells": "1",
+        "cognitive_complexity": "9",
+        "ncloc": "141",
+        "norm_code_smells": "0.0070921985815602835",
+        "norm_cognitive_complexity": "0.06382978723404255"
+    },
+    "buildkite:docs": {
+        "stars": 48,
+        "code_smells": "80",
+        "cognitive_complexity": "263",
+        "ncloc": "11479",
+        "norm_code_smells": "0.00696924819235125",
+        "norm_cognitive_complexity": "0.022911403432354736"
+    },
+    "socketry:console": {
+        "stars": 54,
+        "code_smells": "23",
+        "cognitive_complexity": "178",
+        "ncloc": "2691",
+        "norm_code_smells": "0.008547008547008548",
+        "norm_cognitive_complexity": "0.06614641397250093"
+    },
+    "bytedance:Bytedance-UnionAD": {
+        "stars": 175,
+        "code_smells": "0",
+        "cognitive_complexity": "0",
+        "ncloc": "46",
+        "norm_code_smells": "0.0",
+        "norm_cognitive_complexity": "0.0"
+    },
+    "ledbettj:systemd-journal": {
+        "stars": 55,
+        "code_smells": "3",
+        "cognitive_complexity": "108",
+        "ncloc": "1214",
+        "norm_code_smells": "0.002471169686985173",
+        "norm_cognitive_complexity": "0.08896210873146623"
+    },
+    "ruby-next:freezolite": {
+        "stars": 121,
+        "code_smells": "1",
+        "cognitive_complexity": "11",
+        "ncloc": "150",
+        "norm_code_smells": "0.006666666666666667",
+        "norm_cognitive_complexity": "0.07333333333333333"
+    },
+    "romankurnovskii:homebrew-awesome-brew": {
+        "stars": 63,
+        "code_smells": "7",
+        "cognitive_complexity": "214",
+        "ncloc": "3606",
+        "norm_code_smells": "0.0019412090959511925",
+        "norm_cognitive_complexity": "0.059345535219079315"
+    },
+    "thewca:worldcubeassociation.org": {
+        "stars": 351,
+        "code_smells": "2746",
+        "cognitive_complexity": "4736",
+        "ncloc": "97528",
+        "norm_code_smells": "0.028156016733655975",
+        "norm_cognitive_complexity": "0.04856041341973587"
+    },
+    "nepalez:rspec-sqlimit": {
+        "stars": 233,
+        "code_smells": "0",
+        "cognitive_complexity": "14",
+        "ncloc": "240",
+        "norm_code_smells": "0.0",
+        "norm_cognitive_complexity": "0.058333333333333334"
+    },
+    "darkbitio:gcp-iam-role-permissions": {
+        "stars": 109,
+        "code_smells": "0",
+        "norm_code_smells": "0",
+        "norm_cognitive_complexity": "0"
+    },
+    "ruby:lrama": {
+        "stars": 226,
+        "code_smells": "131",
+        "cognitive_complexity": "760",
+        "ncloc": "21807",
+        "norm_code_smells": "0.0060072453799238775",
+        "norm_cognitive_complexity": "0.03485119457055074"
+    },
+    "decko-commons:decko": {
+        "stars": 54,
+        "code_smells": "649",
+        "cognitive_complexity": "4314",
+        "ncloc": "73960",
+        "norm_code_smells": "0.008775013520822066",
+        "norm_cognitive_complexity": "0.058328826392644674"
+    },
+    "department-of-veterans-affairs:vets-api": {
+        "stars": 215,
+        "code_smells": "4212",
+        "cognitive_complexity": "13692",
+        "ncloc": "489334",
+        "norm_code_smells": "0.008607617700793322",
+        "norm_cognitive_complexity": "0.02798088830941647"
+    },
+    "cloudfoundry:cloud_controller_ng": {
+        "stars": 195,
+        "code_smells": "3200",
+        "cognitive_complexity": "8663",
+        "ncloc": "415380",
+        "norm_code_smells": "0.0077037893013626076",
+        "norm_cognitive_complexity": "0.020855602099282583"
+    },
+    "templatus:templatus-hotwire": {
+        "stars": 233,
+        "code_smells": "7",
+        "cognitive_complexity": "65",
+        "ncloc": "2375",
+        "norm_code_smells": "0.0029473684210526317",
+        "norm_cognitive_complexity": "0.02736842105263158"
+    },
+    "templatus:templatus-vue": {
+        "stars": 81,
+        "code_smells": "7",
+        "cognitive_complexity": "50",
+        "ncloc": "2409",
+        "norm_code_smells": "0.0029057700290577005",
+        "norm_cognitive_complexity": "0.020755500207555"
+    },
+    "apache:whimsy": {
+        "stars": 78,
+        "code_smells": "1165",
+        "cognitive_complexity": "9502",
+        "ncloc": "49194",
+        "norm_code_smells": "0.023681749806887017",
+        "norm_cognitive_complexity": "0.19315363662235233"
+    },
+    "templatus:templatus-inertia": {
+        "stars": 51,
+        "code_smells": "28",
+        "cognitive_complexity": "176",
+        "ncloc": "1639",
+        "norm_code_smells": "0.017083587553386213",
+        "norm_cognitive_complexity": "0.10738255033557047"
+    },
+    "getlago:lago-api": {
+        "stars": 355,
+        "code_smells": "1088",
+        "cognitive_complexity": "5226",
+        "ncloc": "187338",
+        "norm_code_smells": "0.00580768450607992",
+        "norm_cognitive_complexity": "0.02789610223232873"
+    },
+    "zinc-collective:convene": {
+        "stars": 59,
+        "code_smells": "82",
+        "cognitive_complexity": "420",
+        "ncloc": "13663",
+        "norm_code_smells": "0.006001610188099246",
+        "norm_cognitive_complexity": "0.03073995462197175"
+    },
+    "ledermann:pingcrm": {
+        "stars": 320,
+        "code_smells": "48",
+        "cognitive_complexity": "229",
+        "ncloc": "5034",
+        "norm_code_smells": "0.009535160905840286",
+        "norm_cognitive_complexity": "0.045490663488279695"
+    },
+    "jeremyevans:roda-sequel-stack": {
+        "stars": 285,
+        "code_smells": "2",
+        "cognitive_complexity": "55",
+        "ncloc": "402",
+        "norm_code_smells": "0.004975124378109453",
+        "norm_cognitive_complexity": "0.13681592039800994"
+    },
+    "o19s:quepid": {
+        "stars": 297,
+        "code_smells": "1980",
+        "cognitive_complexity": "2225",
+        "ncloc": "56358",
+        "norm_code_smells": "0.03513254551261578",
+        "norm_cognitive_complexity": "0.03947975442705561"
+    },
+    "NREL:OpenStudio-HPXML": {
+        "stars": 48,
+        "code_smells": "2445",
+        "cognitive_complexity": "13758",
+        "ncloc": "457299",
+        "norm_code_smells": "0.0053466112980785005",
+        "norm_cognitive_complexity": "0.03008534897299141"
+    },
+    "AliOsm:phlex-icons": {
+        "stars": 41,
+        "code_smells": "646",
+        "cognitive_complexity": "32",
+        "ncloc": "495082",
+        "norm_code_smells": "0.0013048343506732217",
+        "norm_cognitive_complexity": "6.463575730889025e-05"
+    },
+    "flexera-public:policy_templates": {
+        "stars": 41,
+        "code_smells": "85",
+        "cognitive_complexity": "1371",
+        "ncloc": "3626",
+        "norm_code_smells": "0.02344180915609487",
+        "norm_cognitive_complexity": "0.3781025923883067"
+    },
+    "DataDog:dd-trace-rb": {
+        "stars": 330,
+        "code_smells": "1964",
+        "cognitive_complexity": "5421",
+        "ncloc": "137024",
+        "norm_code_smells": "0.014333255488089678",
+        "norm_cognitive_complexity": "0.039562412424100885"
+    },
+    "square:ruby-rrule": {
+        "stars": 175,
+        "code_smells": "136",
+        "cognitive_complexity": "168",
+        "ncloc": "4247",
+        "norm_code_smells": "0.032022604191193786",
+        "norm_cognitive_complexity": "0.03955733458912173"
+    },
+    "exercism:problem-specifications": {
+        "stars": 334,
+        "code_smells": "2",
+        "cognitive_complexity": "45",
+        "ncloc": "237",
+        "norm_code_smells": "0.008438818565400843",
+        "norm_cognitive_complexity": "0.189873417721519"
+    },
+    "czhu12:canine": {
+        "stars": 310,
+        "code_smells": "141",
+        "cognitive_complexity": "412",
+        "ncloc": "20933",
+        "norm_code_smells": "0.006735776047389289",
+        "norm_cognitive_complexity": "0.019681842067548846"
+    },
+    "SpeciesFileGroup:taxonworks": {
+        "stars": 90,
+        "code_smells": "3601",
+        "cognitive_complexity": "16994",
+        "ncloc": "325710",
+        "norm_code_smells": "0.011055847226059992",
+        "norm_cognitive_complexity": "0.05217524791992877"
+    },
+    "sul-dlss:SearchWorks": {
+        "stars": 48,
+        "code_smells": "635",
+        "cognitive_complexity": "1254",
+        "ncloc": "43131",
+        "norm_code_smells": "0.014722589320906077",
+        "norm_cognitive_complexity": "0.029074215761285386"
+    },
+    "shirasagi:shirasagi": {
+        "stars": 111,
+        "code_smells": "23707",
+        "cognitive_complexity": "100748",
+        "ncloc": "770115",
+        "norm_code_smells": "0.03078371412061835",
+        "norm_cognitive_complexity": "0.13082202008790894"
+    },
+    "tobymao:18xx": {
+        "stars": 310,
+        "code_smells": "1029",
+        "cognitive_complexity": "26713",
+        "ncloc": "254435",
+        "norm_code_smells": "0.004044254917758956",
+        "norm_cognitive_complexity": "0.10498948650932458"
+    },
+    "wmlele:devise-otp": {
+        "stars": 248,
+        "code_smells": "12",
+        "cognitive_complexity": "94",
+        "ncloc": "1960",
+        "norm_code_smells": "0.006122448979591836",
+        "norm_cognitive_complexity": "0.04795918367346939"
+    },
+    "code-and-effect:effective_orders": {
+        "stars": 46,
+        "code_smells": "38",
+        "cognitive_complexity": "1043",
+        "ncloc": "6262",
+        "norm_code_smells": "0.006068348770360907",
+        "norm_cognitive_complexity": "0.16656020440753752"
+    },
+    "mikebowler:jirametrics": {
+        "stars": 44,
+        "code_smells": "182",
+        "cognitive_complexity": "1030",
+        "ncloc": "14334",
+        "norm_code_smells": "0.012697083856564812",
+        "norm_cognitive_complexity": "0.07185712292451514"
+    },
+    "kellerben:dudle": {
+        "stars": 348,
+        "code_smells": "34",
+        "cognitive_complexity": "507",
+        "ncloc": "3424",
+        "norm_code_smells": "0.009929906542056074",
+        "norm_cognitive_complexity": "0.14807242990654207"
+    },
+    "sds:slim-lint": {
+        "stars": 214,
+        "code_smells": "24",
+        "cognitive_complexity": "159",
+        "ncloc": "4955",
+        "norm_code_smells": "0.004843592330978809",
+        "norm_cognitive_complexity": "0.032088799192734614"
+    },
+    "blegat:mathraining": {
+        "stars": 62,
+        "code_smells": "820",
+        "cognitive_complexity": "2266",
+        "ncloc": "39796",
+        "norm_code_smells": "0.020605085938285254",
+        "norm_cognitive_complexity": "0.056940396019700475"
+    },
+    "Shopify:ruby-definitions": {
+        "stars": 58,
+        "code_smells": "1",
+        "cognitive_complexity": "4",
+        "ncloc": "97",
+        "norm_code_smells": "0.010309278350515464",
+        "norm_cognitive_complexity": "0.041237113402061855"
+    },
+    "riscv-software-src:riscv-unified-db": {
+        "stars": 43,
+        "code_smells": "727",
+        "cognitive_complexity": "3448",
+        "ncloc": "74592",
+        "norm_code_smells": "0.009746353496353496",
+        "norm_cognitive_complexity": "0.04622479622479622"
+    },
+    "Kong:docs.konghq.com": {
+        "stars": 204,
+        "code_smells": "424",
+        "cognitive_complexity": "1446",
+        "ncloc": "279597",
+        "norm_code_smells": "0.0015164683455115755",
+        "norm_cognitive_complexity": "0.005171729310400326"
+    },
+    "samvera:hyku": {
+        "stars": 100,
+        "code_smells": "1002",
+        "cognitive_complexity": "5696",
+        "ncloc": "58248",
+        "norm_code_smells": "0.017202307375360527",
+        "norm_cognitive_complexity": "0.09778876527949458"
+    },
+    "omniauth:omniauth-identity": {
+        "stars": 345,
+        "code_smells": "11",
+        "cognitive_complexity": "78",
+        "ncloc": "1201",
+        "norm_code_smells": "0.009159034138218152",
+        "norm_cognitive_complexity": "0.0649458784346378"
+    },
+    "tinglesoftware:dependabot-azure-devops": {
+        "stars": 215,
+        "code_smells": "300",
+        "cognitive_complexity": "1482",
+        "ncloc": "15953",
+        "norm_code_smells": "0.018805240393656365",
+        "norm_cognitive_complexity": "0.09289788754466245"
+    },
+    "openstreetmap:chef": {
+        "stars": 102,
+        "code_smells": "194",
+        "cognitive_complexity": "728",
+        "ncloc": "38467",
+        "norm_code_smells": "0.005043283853692775",
+        "norm_cognitive_complexity": "0.018925312605610003"
+    },
+    "douglara:chatwoot-botpress-bridge": {
+        "stars": 72,
+        "code_smells": "10",
+        "cognitive_complexity": "49",
+        "ncloc": "926",
+        "norm_code_smells": "0.01079913606911447",
+        "norm_cognitive_complexity": "0.052915766738660906"
+    },
+    "EasyPost:easypost-ruby": {
+        "stars": 109,
+        "code_smells": "10",
+        "cognitive_complexity": "185",
+        "ncloc": "4317",
+        "norm_code_smells": "0.0023164234422052353",
+        "norm_cognitive_complexity": "0.04285383368079685"
+    },
+    "yeti-switch:yeti-web": {
+        "stars": 52,
+        "code_smells": "939",
+        "cognitive_complexity": "3172",
+        "ncloc": "357957",
+        "norm_code_smells": "0.0026232201074430726",
+        "norm_cognitive_complexity": "0.008861399553577664"
+    },
+    "braintree:pg_ha_migrations": {
+        "stars": 225,
+        "code_smells": "50",
+        "cognitive_complexity": "249",
+        "ncloc": "5988",
+        "norm_code_smells": "0.008350033400133601",
+        "norm_cognitive_complexity": "0.04158316633266533"
+    },
+    "lineofflight:peddler": {
+        "stars": 307,
+        "code_smells": "27",
+        "cognitive_complexity": "79",
+        "ncloc": "4539",
+        "norm_code_smells": "0.005948446794448116",
+        "norm_cognitive_complexity": "0.01740471469486671"
+    },
+    "sferik:x-ruby": {
+        "stars": 86,
+        "code_smells": "34",
+        "cognitive_complexity": "43",
+        "ncloc": "1740",
+        "norm_code_smells": "0.01954022988505747",
+        "norm_cognitive_complexity": "0.02471264367816092"
+    },
+    "jhollinger:occams-record": {
+        "stars": 367,
+        "code_smells": "45",
+        "cognitive_complexity": "356",
+        "ncloc": "4198",
+        "norm_code_smells": "0.010719390185802763",
+        "norm_cognitive_complexity": "0.08480228680323963"
+    },
+    "phlex-ruby:phlex-rails": {
+        "stars": 269,
+        "code_smells": "4",
+        "cognitive_complexity": "61",
+        "ncloc": "2284",
+        "norm_code_smells": "0.0017513134851138354",
+        "norm_cognitive_complexity": "0.026707530647985988"
+    },
+    "kagisearch:bangs": {
+        "stars": 209,
+        "code_smells": "5",
+        "cognitive_complexity": "31",
+        "ncloc": "507",
+        "norm_code_smells": "0.009861932938856016",
+        "norm_cognitive_complexity": "0.0611439842209073"
+    },
+    "ReaTeam:JSFX": {
+        "stars": 136,
+        "code_smells": "2",
+        "cognitive_complexity": "20",
+        "ncloc": "168",
+        "norm_code_smells": "0.011904761904761904",
+        "norm_cognitive_complexity": "0.11904761904761904"
+    },
+    "csa-admin-org:csa-admin": {
+        "stars": 48,
+        "code_smells": "460",
+        "cognitive_complexity": "2908",
+        "ncloc": "49926",
+        "norm_code_smells": "0.009213636181548692",
+        "norm_cognitive_complexity": "0.05824620438248608"
+    },
+    "MushroomObserver:mushroom-observer": {
+        "stars": 81,
+        "code_smells": "1004",
+        "cognitive_complexity": "8641",
+        "ncloc": "128459",
+        "norm_code_smells": "0.00781572330471201",
+        "norm_cognitive_complexity": "0.06726659868129131"
+    },
+    "Shopify:oktakit": {
+        "stars": 70,
+        "code_smells": "26",
+        "cognitive_complexity": "40",
+        "ncloc": "2135",
+        "norm_code_smells": "0.012177985948477752",
+        "norm_cognitive_complexity": "0.01873536299765808"
+    },
+    "projectblacklight:arclight": {
+        "stars": 40,
+        "code_smells": "70",
+        "cognitive_complexity": "223",
+        "ncloc": "16672",
+        "norm_code_smells": "0.004198656429942419",
+        "norm_cognitive_complexity": "0.013375719769673704"
+    },
+    "fjordllc:bootcamp": {
+        "stars": 287,
+        "code_smells": "1497",
+        "cognitive_complexity": "2258",
+        "ncloc": "64515",
+        "norm_code_smells": "0.023203906068356196",
+        "norm_cognitive_complexity": "0.03499961249321863"
+    },
+    "discourse:discourse-gamification": {
+        "stars": 42,
+        "code_smells": "15",
+        "cognitive_complexity": "96",
+        "ncloc": "4100",
+        "norm_code_smells": "0.003658536585365854",
+        "norm_cognitive_complexity": "0.023414634146341463"
+    },
+    "railsware:actionmailer-balancer": {
+        "stars": 96,
+        "code_smells": "2",
+        "cognitive_complexity": "7",
+        "ncloc": "177",
+        "norm_code_smells": "0.011299435028248588",
+        "norm_cognitive_complexity": "0.03954802259887006"
+    },
+    "tpitale:mail_room": {
+        "stars": 197,
+        "code_smells": "13",
+        "cognitive_complexity": "106",
+        "ncloc": "2414",
+        "norm_code_smells": "0.005385252692626346",
+        "norm_cognitive_complexity": "0.043910521955260975"
+    },
+    "ksylvest:omniai": {
+        "stars": 129,
+        "code_smells": "33",
+        "cognitive_complexity": "135",
+        "ncloc": "4007",
+        "norm_code_smells": "0.008235587721487397",
+        "norm_cognitive_complexity": "0.03369104067881208"
+    },
+    "theforeman:foreman_maintain": {
+        "stars": 56,
+        "code_smells": "97",
+        "cognitive_complexity": "1205",
+        "ncloc": "19944",
+        "norm_code_smells": "0.004863618130766145",
+        "norm_cognitive_complexity": "0.0604191736863217"
+    },
+    "cabo:kramdown-rfc": {
+        "stars": 201,
+        "code_smells": "34",
+        "cognitive_complexity": "908",
+        "ncloc": "5309",
+        "norm_code_smells": "0.006404219250329629",
+        "norm_cognitive_complexity": "0.17103032586174421"
+    },
+    "cloudfoundry:bosh-linux-stemcell-builder": {
+        "stars": 44,
+        "code_smells": "79",
+        "cognitive_complexity": "158",
+        "ncloc": "8155",
+        "norm_code_smells": "0.009687308399754752",
+        "norm_cognitive_complexity": "0.019374616799509504"
+    },
+    "open-telemetry:opentelemetry-ruby-contrib": {
+        "stars": 95,
+        "code_smells": "439",
+        "cognitive_complexity": "1087",
+        "ncloc": "25934",
+        "norm_code_smells": "0.01692758540911545",
+        "norm_cognitive_complexity": "0.04191408961209223"
+    },
+    "appsignal:appsignal-ruby": {
+        "stars": 190,
+        "code_smells": "285",
+        "cognitive_complexity": "1347",
+        "ncloc": "30840",
+        "norm_code_smells": "0.00924124513618677",
+        "norm_cognitive_complexity": "0.04367704280155642"
+    },
+    "ManageIQ:manageiq-ui-classic": {
+        "stars": 50,
+        "code_smells": "2972",
+        "cognitive_complexity": "20980",
+        "ncloc": "214982",
+        "norm_code_smells": "0.013824413206687071",
+        "norm_cognitive_complexity": "0.09758956563805342"
+    },
+    "alphagov:publisher": {
+        "stars": 47,
+        "code_smells": "559",
+        "cognitive_complexity": "1012",
+        "ncloc": "32390",
+        "norm_code_smells": "0.017258413090460018",
+        "norm_cognitive_complexity": "0.031244211176288977"
+    },
+    "archivesspace:archivesspace": {
+        "stars": 363,
+        "code_smells": "2796",
+        "cognitive_complexity": "15168",
+        "ncloc": "222369",
+        "norm_code_smells": "0.012573695074403356",
+        "norm_cognitive_complexity": "0.06821094666972465"
+    },
+    "alphagov:govspeak": {
+        "stars": 94,
+        "code_smells": "26",
+        "cognitive_complexity": "155",
+        "ncloc": "4516",
+        "norm_code_smells": "0.005757307351638618",
+        "norm_cognitive_complexity": "0.03432240921169176"
+    },
+    "wikimedia:mediawiki-vagrant": {
+        "stars": 68,
+        "code_smells": "192",
+        "cognitive_complexity": "1571",
+        "ncloc": "28205",
+        "norm_code_smells": "0.006807303669562135",
+        "norm_cognitive_complexity": "0.05569934408792767"
+    },
+    "ViacomInc:roku_builder": {
+        "stars": 43,
+        "code_smells": "101",
+        "cognitive_complexity": "754",
+        "ncloc": "9230",
+        "norm_code_smells": "0.01094257854821235",
+        "norm_cognitive_complexity": "0.08169014084507042"
+    },
+    "e621ng:e621ng": {
+        "stars": 341,
+        "code_smells": "594",
+        "cognitive_complexity": "4398",
+        "ncloc": "61431",
+        "norm_code_smells": "0.009669385163842359",
+        "norm_cognitive_complexity": "0.07159251843531768"
+    },
+    "discourse:discourse-translator": {
+        "stars": 60,
+        "code_smells": "19",
+        "cognitive_complexity": "170",
+        "ncloc": "4414",
+        "norm_code_smells": "0.004304485727231536",
+        "norm_cognitive_complexity": "0.038513819664703214"
+    },
+    "mlibrary:heliotrope": {
+        "stars": 48,
+        "code_smells": "3848",
+        "cognitive_complexity": "17207",
+        "ncloc": "148741",
+        "norm_code_smells": "0.025870472835331212",
+        "norm_cognitive_complexity": "0.11568431031121211"
+    },
+    "adrienpoly:rubyvideo": {
+        "stars": 371,
+        "code_smells": "80",
+        "cognitive_complexity": "566",
+        "ncloc": "13749",
+        "norm_code_smells": "0.005818604989453778",
+        "norm_cognitive_complexity": "0.04116663030038548"
+    },
+    "Shopify:product-taxonomy": {
+        "stars": 137,
+        "code_smells": "93",
+        "cognitive_complexity": "249",
+        "ncloc": "8762",
+        "norm_code_smells": "0.01061401506505364",
+        "norm_cognitive_complexity": "0.028418169367724264"
+    },
+    "aws:aws-parallelcluster-cookbook": {
+        "stars": 113,
+        "code_smells": "407",
+        "cognitive_complexity": "2483",
+        "ncloc": "40258",
+        "norm_code_smells": "0.010109791842615132",
+        "norm_cognitive_complexity": "0.06167718217497144"
+    },
+    "flipp-oss:deimos": {
+        "stars": 59,
+        "code_smells": "94",
+        "cognitive_complexity": "574",
+        "ncloc": "10240",
+        "norm_code_smells": "0.0091796875",
+        "norm_cognitive_complexity": "0.0560546875"
+    },
+    "discourse:discourse-ai": {
+        "stars": 83,
+        "code_smells": "376",
+        "cognitive_complexity": "3574",
+        "ncloc": "50771",
+        "norm_code_smells": "0.007405802525063521",
+        "norm_cognitive_complexity": "0.07039451655472612"
+    },
+    "MatheusRich:rails-diff": {
+        "stars": 101,
+        "code_smells": "0",
+        "cognitive_complexity": "25",
+        "ncloc": "224",
+        "norm_code_smells": "0.0",
+        "norm_cognitive_complexity": "0.11160714285714286"
+    },
+    "spree:spree_starter": {
+        "stars": 367,
+        "code_smells": "7",
+        "cognitive_complexity": "151",
+        "ncloc": "6443",
+        "norm_code_smells": "0.0010864504112990843",
+        "norm_cognitive_complexity": "0.02343628744373739"
+    },
+    "NielsSteensma:Dhalang": {
+        "stars": 40,
+        "code_smells": "7",
+        "cognitive_complexity": "38",
+        "ncloc": "623",
+        "norm_code_smells": "0.011235955056179775",
+        "norm_cognitive_complexity": "0.060995184590690206"
+    },
+    "Eigenfocus:eigenfocus": {
+        "stars": 336,
+        "code_smells": "190",
+        "cognitive_complexity": "271",
+        "ncloc": "10570",
+        "norm_code_smells": "0.017975402081362345",
+        "norm_cognitive_complexity": "0.025638599810785243"
+    },
+    "ozh:top_100_PHP_projects": {
+        "stars": 54,
+        "code_smells": "0",
+        "cognitive_complexity": "0",
+        "ncloc": "20",
+        "norm_code_smells": "0.0",
+        "norm_cognitive_complexity": "0.0"
+    },
+    "scinote-eln:scinote-web": {
+        "stars": 267,
+        "code_smells": "2588",
+        "cognitive_complexity": "10668",
+        "ncloc": "177787",
+        "norm_code_smells": "0.014556744868859928",
+        "norm_cognitive_complexity": "0.060004387272410246"
+    },
+    "Silex:docker-emacs": {
+        "stars": 211,
+        "code_smells": "7",
+        "ncloc": "84",
+        "norm_code_smells": "0.08333333333333333",
+        "norm_cognitive_complexity": "0.0"
+    },
+    "elastic:docs": {
+        "stars": 252,
+        "code_smells": "862",
+        "cognitive_complexity": "1275",
+        "ncloc": "29457",
+        "norm_code_smells": "0.029262993515972436",
+        "norm_cognitive_complexity": "0.04328343008452999"
+    },
+    "puzzle:puzzletime": {
+        "stars": 46,
+        "code_smells": "242",
+        "cognitive_complexity": "1689",
+        "ncloc": "33020",
+        "norm_code_smells": "0.0073288915808600846",
+        "norm_cognitive_complexity": "0.05115081768625076"
+    },
+    "Homebrew:homebrew-test-bot": {
+        "stars": 82,
+        "code_smells": "37",
+        "cognitive_complexity": "580",
+        "ncloc": "2424",
+        "norm_code_smells": "0.015264026402640265",
+        "norm_cognitive_complexity": "0.23927392739273928"
+    },
+    "alphagov:govuk_publishing_components": {
+        "stars": 80,
+        "code_smells": "2407",
+        "cognitive_complexity": "2142",
+        "ncloc": "54303",
+        "norm_code_smells": "0.04432535955656225",
+        "norm_cognitive_complexity": "0.03944533451190542"
+    },
+    "volcengine:volcengine-specs": {
+        "stars": 65,
+        "code_smells": "0",
+        "norm_code_smells": "0",
+        "norm_cognitive_complexity": "0"
+    },
+    "thoughtbot:upcase": {
+        "stars": 326,
+        "code_smells": "103",
+        "cognitive_complexity": "145",
+        "ncloc": "23373",
+        "norm_code_smells": "0.004406794164206563",
+        "norm_cognitive_complexity": "0.006203739357378171"
+    },
+    "theforeman:foreman_salt": {
+        "stars": 68,
+        "code_smells": "30",
+        "cognitive_complexity": "220",
+        "ncloc": "6703",
+        "norm_code_smells": "0.004475607936744741",
+        "norm_cognitive_complexity": "0.032821124869461434"
+    },
+    "tramlinehq:tramline": {
+        "stars": 254,
+        "code_smells": "173",
+        "cognitive_complexity": "2782",
+        "ncloc": "49115",
+        "norm_code_smells": "0.0035223455156265905",
+        "norm_cognitive_complexity": "0.05664257355186807"
+    },
+    "googleapis:ruby-spanner-activerecord": {
+        "stars": 90,
+        "code_smells": "135",
+        "cognitive_complexity": "865",
+        "ncloc": "18358",
+        "norm_code_smells": "0.007353742237716527",
+        "norm_cognitive_complexity": "0.0471184224861096"
+    },
+    "voxpupuli:puppet-prometheus_reporter": {
+        "stars": 52,
+        "code_smells": "4",
+        "cognitive_complexity": "29",
+        "ncloc": "178",
+        "norm_code_smells": "0.02247191011235955",
+        "norm_cognitive_complexity": "0.16292134831460675"
+    },
+    "xing:beetle": {
+        "stars": 160,
+        "code_smells": "59",
+        "cognitive_complexity": "1225",
+        "ncloc": "11085",
+        "norm_code_smells": "0.005322507893549842",
+        "norm_cognitive_complexity": "0.11050969778980604"
+    },
+    "elastic:crawler": {
+        "stars": 153,
+        "code_smells": "153",
+        "cognitive_complexity": "548",
+        "ncloc": "195963",
+        "norm_code_smells": "0.0007807596331960625",
+        "norm_cognitive_complexity": "0.0027964462679179233"
+    },
+    "jhawthorn:pub_grub": {
+        "stars": 151,
+        "code_smells": "36",
+        "cognitive_complexity": "415",
+        "ncloc": "2701",
+        "norm_code_smells": "0.013328396890040726",
+        "norm_cognitive_complexity": "0.15364679748241392"
+    }
+}
