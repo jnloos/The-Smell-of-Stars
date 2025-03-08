@@ -95,9 +95,8 @@ class Evaluator:
         x_line_s, y_line_s, slope_s, intercept_s = Evaluator.__log_regression(stars_combined, smells_combined)
         ax1.plot(x_line_s, y_line_s, color='gray', label='Trend Line')
 
-        ax1.set_title('Stars (log scale) vs. Smells')
-        ax1.set_xlabel('Stars (log-scale)')
-        ax1.set_ylabel('Bad Smells (normed)')
+        ax1.set_xlabel('Stars')
+        ax1.set_ylabel('Bad Smells per NCLOC')
         ax1.legend()
 
         if save:
@@ -119,9 +118,8 @@ class Evaluator:
         x_line_c, y_line_c, slope_c, intercept_c = Evaluator.__log_regression(stars_combined2, complexity_combined)
         ax2.plot(x_line_c, y_line_c, color='gray', label='Trend Line')
 
-        ax2.set_title('Stars (log scale) vs. Cognitive Complexity')
-        ax2.set_xlabel('Stars (log-scale)')
-        ax2.set_ylabel('Cognitive Complexity (normed)')
+        ax2.set_xlabel('Stars')
+        ax2.set_ylabel('Cognitive Complexity per NCLOC')
         ax2.legend()
 
         if save:
@@ -135,8 +133,7 @@ class Evaluator:
 
         plt.figure()
         bplot_smells = plt.boxplot(data_smells, labels=['Usual', 'Popular'], patch_artist=True)
-        plt.title('Bad Smells (per NCLOC)')
-        plt.ylabel('Normed Value')
+        plt.ylabel('Bad Smells per NCLOC')
 
         bplot_smells['boxes'][0].set_facecolor('blue')  # Usual
         bplot_smells['boxes'][1].set_facecolor('red')   # Popular
@@ -154,9 +151,8 @@ class Evaluator:
             plt.show()
 
         plt.figure()
-        bplot_cmplx = plt.boxplot(data_cmplx, labels=['Usual', 'Popular'], patch_artist=True)
-        plt.title('Cognitive Complexity (per NCLOC)')
-        plt.ylabel('Normed Value')
+        bplot_cmplx = plt.boxplot(data_cmplx, labels=['Usual Repos', 'Popular Repos'], patch_artist=True)
+        plt.ylabel('Cognitive Complexity per NCLOC')
 
         bplot_cmplx['boxes'][0].set_facecolor('blue')  # Usual
         bplot_cmplx['boxes'][1].set_facecolor('red')   # Popular

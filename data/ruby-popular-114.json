@@ -787,14 +787,6 @@
         "norm_code_smells": "0.015713196033562166",
         "norm_cognitive_complexity": "0.04149504195270785"
     },
-    "ankane:pghero": {
-        "stars": 8359,
-        "code_smells": "890",
-        "cognitive_complexity": "25664",
-        "ncloc": "14872",
-        "norm_code_smells": "0.05984400215169446",
-        "norm_cognitive_complexity": "1.7256589564281872"
-    },
     "resque:resque": {
         "stars": 9450,
         "code_smells": "83",

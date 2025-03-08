@@ -79,14 +79,6 @@
         "norm_code_smells": "0.025766101579244128",
         "norm_cognitive_complexity": "0.10454631869890693"
     },
-    "deezertidal:shadowrocket-rules": {
-        "stars": 5450,
-        "code_smells": "105",
-        "cognitive_complexity": "14",
-        "ncloc": "242",
-        "norm_code_smells": "0.43388429752066116",
-        "norm_cognitive_complexity": "0.05785123966942149"
-    },
     "stdlib-js:stdlib": {
         "stars": 4926,
         "code_smells": "1700",
@@ -279,14 +271,6 @@
         "norm_code_smells": "0.13201995650505308",
         "norm_cognitive_complexity": "0.05308942049379557"
     },
-    "thoughtbot:administrate": {
-        "stars": 5927,
-        "code_smells": "2659",
-        "cognitive_complexity": "66178",
-        "ncloc": "38190",
-        "norm_code_smells": "0.06962555642838439",
-        "norm_cognitive_complexity": "1.7328620057606703"
-    },
     "sveltejs:svelte": {
         "stars": 81640,
         "code_smells": "1944",
@@ -414,14 +398,6 @@
         "ncloc": "10394",
         "norm_code_smells": "0.0050028862805464695",
         "norm_cognitive_complexity": "0.04358283625168367"
-    },
-    "blackmatrix7:ios_rule_script": {
-        "stars": 20174,
-        "code_smells": "2449",
-        "cognitive_complexity": "11677",
-        "ncloc": "9287",
-        "norm_code_smells": "0.2637019489609131",
-        "norm_cognitive_complexity": "1.257348982448584"
     },
     "HabitRPG:habitica": {
         "stars": 12558,
