@@ -4,15 +4,15 @@ This small study aims to systematically investigate a possible correlation betwe
 ### Prerequisites
 - Python 3.6+
 - Required Python libraries (install via `pip install -r requirements.txt`)
-- A `.env` file with necessary configuration variables, including:
-  - **GitHub API Key:** Required for accessing the GitHub API.
-  - **SonarQube Key:** Required for the running SonarQube instance (e.g., an API token).
-- A running SonarQube Community Server instance
-- SonarQube CLI installed and accessible in your system's PATH
+- A running SonarQube Community Server instance (e.g. with Docker)
+- SonarQube CLI installed and accessible in the system's PATH
+- A filled copy of the provided `.env` blueprint, including:
+  - GitHub API Key: Required for accessing the GitHub API.
+  - SonarQube Key: Required for accessing  the running SonarQube instance.
 
-### Codes
+### Python Scripts
 This project contains two main scripts in the `./src` directory:
-- **crawl.py:** Crawls GitHub repositories based on filter options and analyzes them using SonarQube. Results are saved as a JSON file.
-- **eval.py:** Reads JSON files for "Usual" and "Popular" repositories and compares their code quality.
+- **crawl.py:** Crawls GitHub repositories based on filter options and analyzes them using SonarQube.
+- **eval.py:** Reads the outputs of the crawled repositories and compares their code quality.
 
 
