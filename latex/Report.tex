@@ -128,9 +128,9 @@ The statistical differences in terms of the normalized cognitive complexity are 
 
 An interesting finding emerges when only Python, JavaScript and PHP repositories are examined and Ruby is excluded. With the smaller sample collection, the Mann-Whitney U-test provided a U-value of 62540.0 (p ≈ 0.0081) for the number of bad smells and a U-value of 62222.5 (p ≈ 0.0117) for the cognitive complexity per NCLOC. These results indicate that popular repositories in these languages have statistically significantly fewer bad smells and lower cognitive complexity than their less popular countersamples.\\
 
-This statistical significance vanishes as soon as Ruby repositories are equally included in the analysis. The reason for this is that a deviating pattern can be observed in Ruby repositories: Here, unlike in the other languages, popular repositories tend to have a higher number of bad smells as well as a higher complexity. This considerably counteracts the trend observed in the other languages in the overall evaluation.\\
+This statistical significance vanishes as soon as Ruby repositories are equally included in the analysis. The reason for this is that a deviating pattern can be observed in Ruby repositories: Here, unlike in the other languages, popular repositories tend to have a higher number of bad smells as well as a higher complexity. This considerably counteracts the trend that has been observed for the other programming languages.\\
 
-These observations suggest that the quality differences between popular and unpopular repositories could depend heavily on the considered programming languages. It therefore seems worthwhile to investigate the language-specific characteristics in greater depth as part of further quantitative studies. Figures \ref{fig:scatter-smells} and \ref{fig:scatter-smells-ruby} are available on the next page and exemplarily illustrate the mutual trends for the bad smells for PHP and Ruby.\\
+These observations suggest that the quality differences between popular and unpopular repositories could depend heavily on the considered programming languages. It therefore seems worthwhile to investigate the language-specific characteristics in greater depth as part of further quantitative studies. Figures \ref{fig:scatter-smells} and \ref{fig:scatter-smells-ruby} are available on the next page and exemplarily illustrate the contradictory trends for the bad smells for PHP and Ruby.\\
 
 \begin{figure}[h!]
   \centering
@@ -148,16 +148,15 @@ These observations suggest that the quality differences between popular and unpo
 
 \subsection*{Threads to Validity}
 
-Due to the short time frame for the data collection, it was only possible to analyze 899 projects. In particular the analysis with SonarQube was both time- and resource-intensive. Consequently, only a small fraction of the available free GitHub projects were examined, meaning that a bias effect cannot be ruled out. The observations regarding Ruby should be treated with particular caution, as they are based on only 230 samples.\\
+Due to the short time frame for the data collection, it was only possible to analyze 899 projects. In particular the analysis with SonarQube was both time- and resource-intensive. According to the experience gained, the examination of a single repository required 5--15 minutes on average. The technical limitations of the utilized computer (32 GB RAM) furthermore limited the parallel execution to 2 simultaneously running threads.  Consequently, only a small fraction of the available free GitHub projects were examined, meaning that a bias effect cannot be ruled out. The observations regarding Ruby should be treated with particular caution, as they are based on only 230 samples.\\
 
 Another important aspect is that the quality of software projects is a versatile concept and involves much more than just capturing bad smells and cognitive complexity. Criteria such as documentation, test coverage, maintainability and usability are also crucial for a comprehensive assessment of software quality. In order to obtain a complete picture of the quality of projects, these other dimensions must also be included in future studies.\\
 
-\begin{itemize}
-\item Grundsätzlich kein signifikanter Unterschied an Smells und Komplexität
-\item Von den Sprachen abhängig? Python und PHP vs. Ruby und JS
-\end{itemize}	
-	
 \subsection*{Conclusion}
-This is the final conclusion.
+This study compared popular GitHub repositories (>4000 stars) with less popular ones (40-400 stars) to investigate whether popularity is related to better code quality. The comparison was based on the number of bad smells and the cognitive complexity per NCLOC from a total of 899 public projects. Although a slight tendency emerged for popular repositories to have slightly better quality metrics, the differences across the entire samples were not statistically significant. This result is surprising, as this report originally assumed that the quality of code is superior in popular repositories. Nevertheless, a selective analysis revealed that the quality of Python, JavaScript and PHP repositories actually improves statistically significantly with increasing popularity. For Ruby repositories, on the other hand, a strong opposite trend can be observed that offsets the significance in the overall analysis.\\
+
+From a practical perspective, these results suggest that developers and project maintainers should be cautious when using GitHub stars as an indicator of code quality. While popularity can indicate community approval and visibility, it is not necessarily a guarantee of high code quality in all languages. Thus, a deeper and language-specific assessment is crucial for making informed decisions in project selection and development strategies.\\
+
+The observed differences between the programming languages are particularly worthwhile for further investigation. Such research should address the limitations identified in this work by considering more samples and including additional dimensions of software quality. If the codes associated with this study will be reused, it is highly recommended to use a more powerful computer for the evaluation process.\\
 	
 \end{document}
