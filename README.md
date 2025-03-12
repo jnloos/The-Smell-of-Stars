@@ -1,5 +1,5 @@
 ### The Smell of Stars
-This small study aims to systematically investigate a possible correlation between the popularity of open source projects – measured by the number of stars – and the quality of the source code. The complete report is included as a PDF.
+This small study aims to systematically investigate a possible correlation between the popularity of open source GitHub projects – measured by the number of stars – and the quality of the source code. The complete report is included as a PDF.
 
 ### Prerequisites
 - Python 3.6+
