@@ -1,0 +1,18 @@
+### The Smell of Stars
+This small study aims to systematically investigate a possible correlation between the popularity of open source projects – measured by the number of stars – and the quality of the source code. The complete report is included as a PDF.
+
+### Prerequisites
+- Python 3.6+
+- Required Python libraries (install via `pip install -r requirements.txt`)
+- A `.env` file with necessary configuration variables, including:
+  - **GitHub API Key:** Required for accessing the GitHub API.
+  - **SonarQube Key:** Required for the running SonarQube instance (e.g., an API token).
+- A running SonarQube Community Server instance
+- SonarQube CLI installed and accessible in your system's PATH
+
+### Codes
+This project contains two main scripts in the `./src` directory:
+- **crawl.py:** Crawls GitHub repositories based on filter options and analyzes them using SonarQube. Results are saved as a JSON file.
+- **eval.py:** Reads JSON files for "Usual" and "Popular" repositories and compares their code quality.
+
+
