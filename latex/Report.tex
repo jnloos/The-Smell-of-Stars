@@ -43,17 +43,17 @@
 	
 \subsection*{The Smell of Stars -- A small study on the correlation between GitHub popularity and code quality.}
 
-GitHub is an online platform for the management of source code and provides collaborative tools for joint development. It has become the central management and storage location for a large number of open source projects. A key element of the social platform is the “Star” function, which allows users to favorite projects.\\
+GitHub is an online platform for the management of source code and provides collaborative tools for joint development. Meanwhile, it has become the central management and storage location for a large number of open source projects. A key element of the social platform is the “Star” function, which allows users to favorite projects.\\
 
-A study by Hudson Borges and Marco Tulio Valente\autocite{Borges2018} suggests that the awarding of stars has a distinct social media character. The star function is accordingly used in particular to bookmark interesting projects or to express appreciation. Borges and Valente's related study further statistically determined that the number of stars correlates moderately with an increased number of contributors.\\
+A study by Hudson Borges and Marco Tulio Valente\autocite{Borges2018} suggests that the awarding of stars has a distinct social media character. According to their study, the star function is used in particular to bookmark interesting projects or to express appreciation. Borges and Valente further determined that the number of stars correlates moderately with an increased number of contributors.\\
 
-This favors the plausible assumption that a high number of stars can be an indicator of high-quality software solutions. The purpose of this small study is to systematically investigate a possible correlation between the popularity of open source projects -- measured by the number of stars -- and the quality of the source code.\\
+A higher number of contributors favors the assumption that a high number of stars can be an indicator of high-quality software solutions. The purpose of this small study is to systematically investigate a possible correlation between the popularity of open source projects -- measured by the number of stars -- and the quality of the source code.\\
 	
 \subsection*{Study Design}
 
-Software quality can be examined on a variety of dimensions. Two of these that are easy to measure are the number of \textit{bad smells} and the \textit{cognitive complexity}\autocite{Bogner2022}. Bad smells indicate problematic code passages that can indicate structural defects or high-maintenance areas. Cognitive complexity, on the other hand, measures how challenging it is for developers to understand and maintain the code based on the complexity of control structures and logical branches. Both metrics can be acquired by static code analysis using the Community Edition of the SonarQube software tool\autocite{SonarQube}. Since both values increase with the size of projects, these can be further normalized based on the \textit{non-comment lines of code} (NCLOC). By doing so, projects of different sizes can also be compared.\\
+Software quality can be examined on a variety of dimensions. Two of these are the number of \textit{bad smells} and the \textit{cognitive complexity}\autocite{Bogner2022}, which are both easy to measure. Bad smells are patterns that indicate problematic code passages, structural defects or high-maintenance areas. Cognitive complexity, on the other hand, measures how challenging it is for developers to understand and maintain the code based on the complexity of control structures and logical branches. Both metrics can be acquired by static code analysis using the Community Edition of the \textit{SonarQube} software tool\autocite{SonarQube}. Since both values increase with the size of projects, these can be further normalized based on the \textit{non-comment lines of code} (NCLOC). By doing so, projects of different sizes can also be compared.\\
 
-In order to prevent a bias effect created by the choice of programming language, repositories written in Ruby, PHP, JavaScript (JS) and Python were examined. Since these scripting languages do not require a compilation step, they are much easier to evaluate with SonarQube. Although 960 repositories were originally planned, the automatic analysis of particularly large repositories led to timeouts and problems with limited memory, so that the final sample comprises 899 repositories. A detailed overview of the crawled repositories can be found in Table \ref{tab:repo_counts}. These projects were crawled using the GitHub API\autocite{GitHub-Api}, whereby the selection was not random but based on the best match pattern. This approach selected the best matching repositories for the applied search parameters.
+In order to prevent a bias effect created by the choice of programming language, repositories written in Ruby, PHP, JavaScript (JS) and Python were examined. Since these scripting languages do not require a compilation step, they are much easier to evaluate with SonarQube. Although 960 repositories were originally planned, the automatic analysis of particularly large repositories led to timeouts and problems with limited memory, so that the final sample comprises 899 repositories. A detailed overview of the crawled repositories can be found in Table \ref{tab:repo_counts}. All projects were crawled using the GitHub API\autocite{GitHub-Api}, whereby the selection was not random but based on the best match pattern. This approach selected the best matching repositories for the applied search parameters.
 
 \begin{table}[ht]
 \centering
@@ -70,7 +70,7 @@ Usual & $ 4000 < x $ & 116 & 112 & 113 & 116 & 442 \\
 \label{tab:repo_counts}
 \end{table}
 
-In accordance with the research question, it was further necessary to decide which repositories should be categorized as popular or usual. In this study, repositories with more than 4000 stars were categorized as popular, while repositories with less than 400 stars were considered to be common. Early analyses revealed that without a lower limit, several empty repositories were included in the dataset. A minimum number of 40 stars was introduced as an additional criterion to prevent this. The disjoint groupings combined with the normalized results allow the application of the Mann-Whitney U-test and Cohans-D to statistically evaluate the differences between the crawled probesets.\\
+In accordance with the research question, it was further necessary to decide which repositories should be categorized as popular or usual. In this study, repositories with more than 4000 stars were categorized as popular, while repositories with less than 400 stars were considered to be common. Early analyses revealed that without a lower limit, several empty repositories were included in the dataset. A minimum number of 40 stars was introduced as an additional criterion to prevent this. The disjoint groupings combined with the normalized results allow the application of the \textit{Mann-Whitney U-test} and \textit{Cohans-D} to statistically evaluate the differences between the crawled probesets.\\
 
 The initial assumption of this study is that popular repositories indeed have a higher code quality compared to ordinary repositories. Considering the previous categorization, the following null and alternative hypotheses can be formulated:
 
@@ -87,11 +87,11 @@ $\mathbf{B_0}$: There is no significant difference in the cognitive complexity b
 \end{tabular}
 \end{table}
 
-The assessments in this study were carried out using two Python scripts, one responsible for crawling and the other for analysis. Both scripts are available in the GitHub repository associated with this report at \href{https://github.com/jnloos/The-Smell-of-Stars}{https://github.com/jnloos/The-Smell-of-Stars}. In addition to the required Python libraries, a locally accessible instance of the SonarQube Community Server (e.g. as a Docker container) is required to execute the code. The SonarQube CLI must also be installed and stored in the system's path variables.\\
+The assessments in this study were carried out using two Python scripts, one responsible for crawling and the other for analysis. Both scripts are available in the GitHub repository associated with this report at \href{https://github.com/jnloos/The-Smell-of-Stars}{https://github.com/jnloos/The-Smell-of-Stars}. In addition to the required Python libraries, a locally accessible instance of the SonarQube Community Server (e.g. in a running Docker container) is required to execute the code. The SonarQube CLI must also be installed and stored in the system's path variables.\\
 
 \subsection*{Evaluation}
 
-The descriptive analysis of the normalized results showed that the repositories with less than 400 stars have a slightly higher number of bad smells than the popular ones. Specifically, the common group has a mean of 0.03038 and a median of 0.01708 and popular repositories have a mean of 0.02429 and a median of 0.01501. The scatter indicated by the standard deviations 0.03602 for common repositories and 0.02831 for popular repositories and the observed maximum values of 0.224327 and 0.198731 indicate that although most repositories in both groups have relatively low bad smells per NCLOC a moderate dispersion is present. Figure \ref{fig:box-smells} shows a boxplot that visually compares the distribution of bad smells in the two groups.\\
+The descriptive analysis of the normalized results showed that the repositories with less than 400 stars have a slightly higher number of bad smells than the popular ones. Specifically, the common group has a mean of 0.03038 and a median of 0.01708 and popular repositories have a mean of 0.02429 and a median of 0.01501. The scatter indicated by the standard deviations 0.03602 for common repositories and 0.02831 for popular repositories and the observed maximum values of 0.224327 and 0.198731 indicate that although most repositories in both groups have a relatively low number of bad smells per NCLOC while a moderate dispersion is present. Figure \ref{fig:box-smells} shows a boxplot that visually compares the distribution of bad smells in the two groups.\\
 
 \begin{figure}[h]
   \centering
@@ -100,7 +100,7 @@ The descriptive analysis of the normalized results showed that the repositories 
   \label{fig:box-smells}
 \end{figure}
 
-Nevertheless, both the Mann-Whitney U-test and Cohen's d (U = 104901.0, p ≈ 0.316) effect size suggest that the differences in bad smells between the common and popular repositories are not statistically significant. These results suggest that the observed differences could be attributed to random variation rather than a true statistical effect, despite a tendency for slightly fewer bad smells in popular repositories.
+Nevertheless, both the Mann-Whitney U-test and Cohen's d ($U = 104901.0$, $p \approx 0.316$) effect size suggest that the differences in bad smells between the common and popular repositories are not statistically significant. The observed differences could therefore be attributed to random variation rather than a true statistical effect in, despite a tendency for slightly fewer bad smells in popular repositories.
 
 \vspace{0.5em}
 \begin{leftbar}
@@ -108,9 +108,9 @@ The results show a slight tendency that repositories with more than 4000 stars t
 \end{leftbar}
 \vspace{0.5em}
 
-Furthermore, the by the NCLOC normalized cognitive complexity of common repositories can be described by a mean value of 0.12823 and a median of 0.09091. With a mean value of 0.11331 and a median of 0.08412, popular projects again appear to be marginally less complex. The values have a standard deviation of 0.11643 for common and 0.10408 for popular repositories, which suggests that the scatter around the respective mean values is quite similar. The boxplot in Figure \ref{fig:box-cmplx} illustrates these observations once again.\\
+Furthermore, the by the NCLOC normalized cognitive complexity of common repositories can be described by a mean value of 0.12823 and a median of 0.09091. With a mean value of 0.11331 and a median of 0.08412, popular projects again appear to be marginally less complex. The values have a standard deviation of 0.11643 for common and 0.10408 for popular repositories, which means that the scatter around the respective mean values is quite similar. The boxplot in Figure \ref{fig:box-cmplx} illustrates these observations once again.\\
 
-The Mann-Whitney U-test (U = 103923.5, p ≈ 0.452) and the corresponding Cohen's d effect size show no statistically significant differences between the groups in the inferential analysis. Similar to the Bad Smells per NCLOC, this emphasizes the observation that popular repositories appear to have a slightly lower cognitive complexity on average. However, the statistical significance is even smaller the differences of the bad smells.
+The Mann-Whitney U-test ($U = 103923.5$, $p \approx 0.452$) and the corresponding Cohen's d effect size show no statistically significant differences between the groups in the inferential analysis. Similar to the Bad Smells per NCLOC, this emphasizes the observation that popular repositories appear to have a slightly lower cognitive complexity on average. However, the statistical significance is even smaller then the differences of the bad smells.
 
 \begin{figure}[h]
   \centering
@@ -121,11 +121,11 @@ The Mann-Whitney U-test (U = 103923.5, p ≈ 0.452) and the corresponding Cohen'
 
 \vspace{0.5em}
 \begin{leftbar}
-The statistical differences in terms of the normalized cognitive complexity are insignificant. Therefore, hypothesis $\mathbf{B_0}$ must be accepted. 
+The statistical differences in terms of the normalized cognitive complexity are insignificant. In consequence, the null hypothesis $\mathbf{B_0}$ must be accepted. 
 \end{leftbar}
 \vspace{0.5em}
 
-An interesting finding emerges when only Python, JavaScript and PHP repositories are examined and Ruby is excluded. With the smaller sample collection, the Mann-Whitney U-test provided a U-value of 62540.0 (p ≈ 0.0081) for the number of bad smells and a U-value of 62222.5 (p ≈ 0.0117) for the cognitive complexity per NCLOC. These results indicate that popular repositories in these languages have statistically significantly fewer bad smells and lower cognitive complexity than their less popular countersamples.\\
+An interesting finding emerges when only Python, JavaScript and PHP repositories are examined and Ruby is excluded. With the smaller sample collection, the statistically analysis provided $U = 62540.0$ and $p \approx 0.0081$ for the number of bad smells as well as $U = 62222.5$ and $p \approx 0.0117$ for the cognitive complexity per NCLOC. These results indicate that popular repositories in these languages have statistically significantly fewer bad smells and lower cognitive complexity than their less popular countersamples.\\
 
 This statistical significance vanishes as soon as Ruby repositories are equally included in the analysis. The reason for this is that a deviating pattern can be observed in Ruby repositories: Here, unlike in the other languages, popular repositories tend to have a higher number of bad smells as well as a higher complexity. This considerably counteracts the trend that has been observed for the other programming languages.\\
 
